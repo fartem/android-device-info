@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Device Info</string>
+
+    <!-- Common -->
+    <string name="common_empty_result">-</string>
+
+    <!-- JVM -->
+    <string name="jvm_name_art">ART</string>
+    <string name="jvm_name_dalvik">Dalvik</string>
 </resources>

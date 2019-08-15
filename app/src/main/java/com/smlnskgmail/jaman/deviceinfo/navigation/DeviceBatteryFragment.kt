@@ -1,4 +1,5 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation
 
-class GPUInfoFragment {
+class DeviceBatteryFragment {
+
 }

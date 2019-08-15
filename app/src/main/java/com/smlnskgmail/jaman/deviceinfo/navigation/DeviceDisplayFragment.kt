@@ -1,5 +1,4 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation
 
-class SystemInfoFragment {
-
+class DeviceDisplayFragment {
 }

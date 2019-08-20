@@ -2,6 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.info.gpu
 
 import android.opengl.GLSurfaceView
 import androidx.appcompat.app.AppCompatActivity
+import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUModelPreferenceKey
+import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUVendorPreferenceKey
 import com.smlnskgmail.jaman.deviceinfo.preferences.StringPreference
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
@@ -16,8 +18,8 @@ class DeviceGPUActivity : AppCompatActivity() {
             val vendor = gl!!.glGetString(GL10.GL_VENDOR)
             val model = gl.glGetString(GL10.GL_RENDERER)
 
-            StringPreference(this@DeviceGPUActivity, "gpu_vendor").save(vendor)
-            StringPreference(this@DeviceGPUActivity, "gpu_model").save(model)
+            StringPreference(this@DeviceGPUActivity, GPUVendorPreferenceKey()).save(vendor)
+            StringPreference(this@DeviceGPUActivity, GPUModelPreferenceKey()).save(model)
         }
     }
 

@@ -3,18 +3,22 @@ package com.smlnskgmail.jaman.deviceinfo.preferences
 import android.content.Context
 import android.preference.PreferenceManager
 
-class StringPreference(private val context: Context, private val preferenceKey: PreferenceKey) {
+class StringPreference(
 
-    private val key = preferenceKey.key()
+    private val context: Context,
+    private val preferenceConfiguration: PreferenceConfiguration<String>
 
-    fun save(value: String) {
-        PreferenceManager.getDefaultSharedPreferences(context)
-            .edit().putString(key, value).apply()
+) : Preference<String> {
+
+    private val key = preferenceConfiguration.key()
+
+    override fun save(value: String) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(key, value).apply()
     }
 
-    fun value(): String? {
+    override fun value(): String {
         return PreferenceManager.getDefaultSharedPreferences(context)
-            .getString(key, null)
+            .getString(key, preferenceConfiguration.defaultValue())!!
     }
 
 }

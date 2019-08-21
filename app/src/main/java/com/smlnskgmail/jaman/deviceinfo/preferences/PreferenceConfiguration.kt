@@ -1,7 +1,8 @@
 package com.smlnskgmail.jaman.deviceinfo.preferences
 
-interface PreferenceKey {
+interface PreferenceConfiguration<T> {
 
     fun key(): String
+    fun defaultValue(): T
 
 }

@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".info.gpu.DeviceGPUActivity" />
+        <activity android:name=".info.gpu.components.DeviceGPUActivity" />
     </application>
 
 </manifest>

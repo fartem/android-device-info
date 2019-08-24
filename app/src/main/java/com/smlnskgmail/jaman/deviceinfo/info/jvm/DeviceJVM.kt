@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info
+package com.smlnskgmail.jaman.deviceinfo.info.jvm
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R

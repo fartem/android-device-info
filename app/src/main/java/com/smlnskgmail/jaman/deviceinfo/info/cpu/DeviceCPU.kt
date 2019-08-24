@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info
+package com.smlnskgmail.jaman.deviceinfo.info.cpu
 
 import java.io.File
 import java.io.FileFilter

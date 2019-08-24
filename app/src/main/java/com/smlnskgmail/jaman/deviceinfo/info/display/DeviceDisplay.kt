@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info
+package com.smlnskgmail.jaman.deviceinfo.info.display
 
 import android.app.Activity
 import android.os.Build

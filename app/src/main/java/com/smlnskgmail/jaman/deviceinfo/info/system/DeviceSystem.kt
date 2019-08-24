@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info
+package com.smlnskgmail.jaman.deviceinfo.info.system
 
 import android.annotation.SuppressLint
 import android.content.Context

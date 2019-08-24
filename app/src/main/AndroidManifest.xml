@@ -3,7 +3,7 @@
           package="com.smlnskgmail.jaman.deviceinfo">
 
     <application
-            android:name=".DeviceInfoApplication"
+            android:name=".App"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"

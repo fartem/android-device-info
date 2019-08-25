@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info.ram
+package com.smlnskgmail.jaman.deviceinfo.info.ram.tools
 
 class BytesInMegabytes(private val bytes: Long) {
 

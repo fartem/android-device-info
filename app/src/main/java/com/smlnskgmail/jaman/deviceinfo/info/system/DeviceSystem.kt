@@ -7,36 +7,36 @@ import com.smlnskgmail.jaman.deviceinfo.R
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DeviceSystem(private val context: Context) {
+class DeviceSystem(private val context: Context) : System {
 
-    fun model() = Build.MODEL
+    override fun model() = Build.MODEL
 
-    fun product() = Build.PRODUCT
+    override fun product() = Build.PRODUCT
 
-    fun brand() = Build.BRAND
+    override fun brand() = Build.BRAND
 
-    fun type() = Build.TYPE
+    override fun type() = Build.TYPE
 
-    fun manufacturer() = Build.MANUFACTURER
+    override fun manufacturer() = Build.MANUFACTURER
 
-    fun board() = Build.BOARD
+    override fun board() = Build.BOARD
 
-    fun hardware() = Build.HARDWARE
+    override fun hardware() = Build.HARDWARE
 
-    fun releaseVersion() = Build.VERSION.RELEASE
+    override fun releaseVersion() = Build.VERSION.RELEASE
 
-    fun apiLevel() = Build.VERSION.SDK
+    override fun apiLevel() = Build.VERSION.SDK
 
-    fun user() = Build.USER
+    override fun user() = Build.USER
 
-    fun host() = Build.HOST
+    override fun host() = Build.HOST
 
-    fun fingerprint() = Build.FINGERPRINT
+    override fun fingerprint() = Build.FINGERPRINT
 
-    fun bootloader() = Build.BOOTLOADER
+    override fun bootloader() = Build.BOOTLOADER
 
-    fun arch(): String {
-        val arch = System.getProperty("os.arch")
+    override fun arch(): String {
+        val arch = java.lang.System.getProperty("os.arch")
         return if (!arch.isNullOrEmpty()) {
             arch
         } else {
@@ -44,8 +44,8 @@ class DeviceSystem(private val context: Context) {
         }
     }
 
-    fun kernelVersion(): String {
-        val kernelVersion = System.getProperty("os.version")
+    override fun kernelVersion(): String {
+        val kernelVersion = java.lang.System.getProperty("os.version")
         return if (!kernelVersion.isNullOrEmpty()) {
             kernelVersion
         } else {
@@ -54,13 +54,13 @@ class DeviceSystem(private val context: Context) {
     }
 
     @SuppressLint("SimpleDateFormat")
-    fun date(): String {
+    override fun date(): String {
         val date = Date(Build.TIME)
         val dateFormat = SimpleDateFormat("dd/MM/yy")
         return dateFormat.format(date)
     }
 
-    fun codeName(): String {
+    override fun codeName(): String {
         val fields = Build.VERSION_CODES::class.java.fields
         return fields[Build.VERSION.SDK_INT + 1].name
     }

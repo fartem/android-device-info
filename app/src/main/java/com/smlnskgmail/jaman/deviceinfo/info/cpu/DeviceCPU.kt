@@ -5,11 +5,11 @@ import java.io.FileFilter
 import java.util.regex.Pattern
 
 
-class DeviceCPU {
+class DeviceCPU : CPU {
 
-    fun cores() = Runtime.getRuntime().availableProcessors()
+    override fun cores() = Runtime.getRuntime().availableProcessors()
 
-    fun minimumFreq(): Int {
+    override fun minimumFreq(): Int {
         val cpus = cpus()
         var minimumFreq = 0
 
@@ -26,7 +26,7 @@ class DeviceCPU {
         return minimumFreq
     }
 
-    fun maximumFreq(): Int {
+    override fun maximumFreq(): Int {
         val cpus = cpus()
         var maximumFreq = 0
 

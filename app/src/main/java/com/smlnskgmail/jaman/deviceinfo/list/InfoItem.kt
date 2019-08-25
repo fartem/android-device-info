@@ -1,3 +1,8 @@
 package com.smlnskgmail.jaman.deviceinfo.list
 
-class InfoItem
+interface InfoItem {
+
+    fun title(): String
+    fun body(): String
+
+}

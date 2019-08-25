@@ -7,4 +7,28 @@
     <!-- JVM -->
     <string name="jvm_name_art">ART</string>
     <string name="jvm_name_dalvik">Dalvik</string>
+
+    <!-- Info items titles -->
+    <string name="item_info_title_cpu_cores">Cores</string>
+    <string name="item_info_title_cpu_freq">Freq</string>
+    <string name="item_info_title_jvm_name">JVM</string>
+    <string name="item_info_title_ram_available">Available RAM</string>
+    <string name="item_info_title_ram_total">Total RAM</string>
+    <string name="item_info_title_system_api_level">Api Level</string>
+    <string name="item_info_title_system_arch">Arch</string>
+    <string name="item_info_title_system_board">Board</string>
+    <string name="item_info_title_system_bootloader">Bootloader</string>
+    <string name="item_info_title_system_brand">Brand</string>
+    <string name="item_info_title_system_code_name">Code Name</string>
+    <string name="item_info_title_system_date">Date</string>
+    <string name="item_info_title_system_fingerprint">Fingerprint</string>
+    <string name="item_info_title_system_hardware">Hardware</string>
+    <string name="item_info_title_system_host">Host</string>
+    <string name="item_info_title_system_kernel_version">Kernel Version</string>
+    <string name="item_info_title_system_manufacturer">Manufacturer</string>
+    <string name="item_info_title_system_model">Model</string>
+    <string name="item_info_title_system_product">Product</string>
+    <string name="item_info_title_system_release_version">Release Version</string>
+    <string name="item_info_title_system_type">Type</string>
+    <string name="item_info_title_system_user">User</string>
 </resources>

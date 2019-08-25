@@ -4,7 +4,7 @@ import android.app.Activity
 import android.os.Build
 import android.util.DisplayMetrics
 
-class DeviceDisplay(activity: Activity) {
+class DeviceDisplay(activity: Activity) : Display{
 
     private var displayMetrics: DisplayMetrics = DisplayMetrics()
 
@@ -12,20 +12,20 @@ class DeviceDisplay(activity: Activity) {
         activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
     }
 
-    fun display() = Build.DISPLAY
+    override fun display() = Build.DISPLAY
 
-    fun density() = displayMetrics.density
+    override fun density() = displayMetrics.density
 
-    fun densityDpi() = displayMetrics.densityDpi
+    override fun densityDpi() = displayMetrics.densityDpi
 
-    fun scaledDensity() = displayMetrics.scaledDensity
+    override fun scaledDensity() = displayMetrics.scaledDensity
 
-    fun widthPixels() = displayMetrics.widthPixels
+    override fun widthPixels() = displayMetrics.widthPixels
 
-    fun heightPixels() = displayMetrics.heightPixels
+    override fun heightPixels() = displayMetrics.heightPixels
 
-    fun xDpi() = displayMetrics.xdpi
+    override fun xDpi() = displayMetrics.xdpi
 
-    fun yDpi() = displayMetrics.ydpi
+    override fun yDpi() = displayMetrics.ydpi
 
 }

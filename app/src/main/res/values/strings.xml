@@ -31,4 +31,14 @@
     <string name="item_info_title_system_release_version">Release Version</string>
     <string name="item_info_title_system_type">Type</string>
     <string name="item_info_title_system_user">User</string>
+    <string name="item_info_title_display_density_dpi">Density DPI</string>
+    <string name="item_info_title_display_density">Density</string>
+    <string name="item_info_title_display_display">Display</string>
+    <string name="item_info_title_display_height_pixels">Height Pixels</string>
+    <string name="item_info_title_display_scaled_density_dpi">Scaled Density DPI</string>
+    <string name="item_info_title_display_width_pixels">Width Pixels</string>
+    <string name="item_info_title_display_xdpi">XDPI</string>
+    <string name="item_info_title_display_ydpi">YDPI</string>
+    <string name="item_info_title_gpu_model">Model</string>
+    <string name="item_info_title_gpu_vendor">Vendor</string>
 </resources>

@@ -5,10 +5,10 @@ import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUModelPreferenceC
 import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUVendorPreferenceConfiguration
 import com.smlnskgmail.jaman.deviceinfo.preferences.StringPreference
 
-class DeviceGPU(private val context: Context) {
+class DeviceGPU(private val context: Context) : GPU {
 
-    fun vendor() = StringPreference(context, GPUVendorPreferenceConfiguration()).value()
+    override fun vendor() = StringPreference(context, GPUVendorPreferenceConfiguration()).value()
 
-    fun model() = StringPreference(context, GPUModelPreferenceConfiguration()).value()
+    override fun model() = StringPreference(context, GPUModelPreferenceConfiguration()).value()
 
 }

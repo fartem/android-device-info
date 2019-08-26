@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.display
 
-interface Display {
+interface DisplayInfo {
 
     fun display(): String
     fun density(): Float

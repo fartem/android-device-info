@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.ram
 
-interface RAM {
+interface RAMInfo {
 
     fun loadState()
     fun totalRAM(): Long

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.system
 
-interface System {
+interface SystemInfo {
 
     fun model(): String
     fun product(): String

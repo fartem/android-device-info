@@ -7,7 +7,7 @@ import com.smlnskgmail.jaman.deviceinfo.R
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DeviceSystem(private val context: Context) : System {
+class DeviceSystemInfo(private val context: Context) : SystemInfo {
 
     override fun model() = Build.MODEL
 

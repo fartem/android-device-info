@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.jvm
 
-interface JVM {
+interface JVMInfo {
 
     fun jvmName(): String
 

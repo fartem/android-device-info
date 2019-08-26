@@ -5,7 +5,7 @@ import java.io.FileFilter
 import java.util.regex.Pattern
 
 
-class DeviceCPU : CPU {
+class DeviceCPUInfo : CPUInfo {
 
     override fun cores() = Runtime.getRuntime().availableProcessors()
 

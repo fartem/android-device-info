@@ -4,9 +4,24 @@
     <!-- Common -->
     <string name="common_empty_result">-</string>
 
-    <!-- JVM -->
+    <!-- JVM info -->
     <string name="jvm_name_art">ART</string>
     <string name="jvm_name_dalvik">Dalvik</string>
+
+    <!-- Battery info -->
+    <string name="battery_info_health_cold">Cold</string>
+    <string name="battery_info_health_dead">Dead</string>
+    <string name="battery_info_health_good">Good</string>
+    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <string name="battery_info_health_overheat">Overheat</string>
+    <string name="battery_info_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_info_common_unknown">Unknown</string>
+    <string name="battery_info_plugged_wireless">Wireless</string>
+    <string name="battery_info_plugged_usb">USB</string>
+    <string name="battery_info_plugged_ac">AC</string>
+    <string name="battery_info_action_charging">Charging</string>
+    <string name="battery_info_action_full">Full</string>
+    <string name="battery_info_action_discharging">Discharging</string>
 
     <!-- Info items titles -->
     <string name="item_info_title_cpu_cores">Cores</string>
@@ -41,4 +56,7 @@
     <string name="item_info_title_display_ydpi">YDPI</string>
     <string name="item_info_title_gpu_model">Model</string>
     <string name="item_info_title_gpu_vendor">Vendor</string>
+    <string name="item_info_title_battery_action">Action</string>
+    <string name="item_info_title_battery_health">Health</string>
+    <string name="item_info_title_battery_plugged">Plugged</string>
 </resources>

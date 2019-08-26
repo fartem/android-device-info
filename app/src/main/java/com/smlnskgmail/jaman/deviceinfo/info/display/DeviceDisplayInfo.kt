@@ -4,7 +4,7 @@ import android.app.Activity
 import android.os.Build
 import android.util.DisplayMetrics
 
-class DeviceDisplay(activity: Activity) : Display{
+class DeviceDisplayInfo(activity: Activity) : DisplayInfo{
 
     private var displayMetrics: DisplayMetrics = DisplayMetrics()
 

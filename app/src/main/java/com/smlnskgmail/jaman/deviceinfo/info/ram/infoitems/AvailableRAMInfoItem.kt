@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.deviceinfo.info.ram.infoitems
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.ram.RAMInfo
-import com.smlnskgmail.jaman.deviceinfo.list.InfoItem
+import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list.InfoItem
 
 class AvailableRAMInfoItem(private val context: Context, private val ramInfo: RAMInfo) : InfoItem {
 

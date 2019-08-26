@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.list
+package com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list
 
 interface InfoItem {
 

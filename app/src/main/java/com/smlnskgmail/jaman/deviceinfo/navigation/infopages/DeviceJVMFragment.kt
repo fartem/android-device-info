@@ -1,9 +1,9 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.info
+package com.smlnskgmail.jaman.deviceinfo.navigation.infopages
 
 import com.smlnskgmail.jaman.deviceinfo.info.jvm.DeviceJVMInfo
 import com.smlnskgmail.jaman.deviceinfo.info.jvm.infoitems.JVMNameInfoItem
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.BaseListInfoFragment
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list.InfoItem
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoFragment
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
 
 class DeviceJVMFragment : BaseListInfoFragment() {
 

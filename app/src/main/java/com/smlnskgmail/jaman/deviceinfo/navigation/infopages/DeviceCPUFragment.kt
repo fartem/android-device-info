@@ -1,10 +1,10 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.info
+package com.smlnskgmail.jaman.deviceinfo.navigation.infopages
 
 import com.smlnskgmail.jaman.deviceinfo.info.cpu.DeviceCPUInfo
 import com.smlnskgmail.jaman.deviceinfo.info.cpu.infoitems.CPUCoresInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.cpu.infoitems.CPUFreqInfoItem
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.BaseListInfoFragment
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list.InfoItem
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoFragment
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
 
 class DeviceCPUFragment : BaseListInfoFragment() {
 

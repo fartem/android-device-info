@@ -1,11 +1,11 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.info
+package com.smlnskgmail.jaman.deviceinfo.navigation.infopages
 
 import com.smlnskgmail.jaman.deviceinfo.info.battery.DeviceBatteryInfo
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryActionInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryHealthInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryPluggedInfoItem
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.BaseListInfoFragment
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list.InfoItem
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoFragment
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
 
 class DeviceBatteryFragment : BaseListInfoFragment() {
 

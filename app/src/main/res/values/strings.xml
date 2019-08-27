@@ -3,6 +3,7 @@
 
     <!-- Common -->
     <string name="common_empty_result">-</string>
+    <string name="common_mb">mb</string>
 
     <!-- JVM info -->
     <string name="jvm_name_art">ART</string>

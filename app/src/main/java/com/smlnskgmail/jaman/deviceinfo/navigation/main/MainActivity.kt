@@ -3,7 +3,7 @@ package com.smlnskgmail.jaman.deviceinfo.navigation.main
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.navigation.info.*
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun pages() = listOf(
         DeviceSystemFragment(),
-//        DeviceCPUFragment(),
+        DeviceCPUFragment(),
 //        DeviceGPUFragment(),
         DeviceJVMFragment(),
         DeviceRAMFragment(),

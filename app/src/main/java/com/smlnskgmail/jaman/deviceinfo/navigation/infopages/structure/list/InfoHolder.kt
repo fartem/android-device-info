@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.info.structure.list
+package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

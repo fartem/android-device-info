@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.cpu
 
-import com.smlnskgmail.jaman.deviceinfo.info.cpu.tools.Ghz
+import com.smlnskgmail.jaman.deviceinfo.info.cpu.infoitems.tools.Ghz
 import com.smlnskgmail.jaman.deviceinfo.support.NullHandle
 import java.io.File
 import java.io.FileFilter
@@ -11,7 +11,7 @@ class DeviceCPUInfo : CPUInfo {
 
     override fun cores() = Runtime.getRuntime().availableProcessors()
 
-    override fun minimumFreq(): Float {
+    override fun minimumFreq(): Int {
         val cpus = cpus()
         var minimumFreq = 0
 
@@ -26,10 +26,10 @@ class DeviceCPUInfo : CPUInfo {
                 }
             }
         }
-        return Ghz(minimumFreq).result()
+        return minimumFreq
     }
 
-    override fun maximumFreq(): Float {
+    override fun maximumFreq(): Int {
         val cpus = cpus()
         var maximumFreq = 0
 
@@ -43,7 +43,7 @@ class DeviceCPUInfo : CPUInfo {
                 }
             }
         }
-        return Ghz(maximumFreq).result()
+        return maximumFreq
     }
 
     private fun adoptedString(string: String): String {

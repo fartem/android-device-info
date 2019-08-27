@@ -4,10 +4,10 @@ import com.smlnskgmail.jaman.deviceinfo.info.battery.DeviceBatteryInfo
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryActionInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryHealthInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.battery.infoitems.BatteryPluggedInfoItem
-import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoFragment
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
 
-class DeviceBatteryFragment : BaseListInfoFragment() {
+class DeviceBatteryPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
         val batteryInfo = DeviceBatteryInfo(context!!)
@@ -18,5 +18,7 @@ class DeviceBatteryFragment : BaseListInfoFragment() {
             BatteryPluggedInfoItem(context!!, batteryInfo)
         )
     }
+
+    override fun pageTitle() = "Battery"
 
 }

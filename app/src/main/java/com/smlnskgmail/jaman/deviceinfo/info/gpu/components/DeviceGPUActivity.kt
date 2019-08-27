@@ -4,9 +4,9 @@ import android.opengl.GLSurfaceView
 import android.os.Bundle
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUModelPreferenceConfiguration
-import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUVendorPreferenceConfiguration
-import com.smlnskgmail.jaman.deviceinfo.preferences.StringPreference
+import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUModelPreferenceSupport
+import com.smlnskgmail.jaman.deviceinfo.info.gpu.preferences.GPUVendorPreferenceSupport
+import com.smlnskgmail.jaman.deviceinfo.preferences.types.StringPreference
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 
@@ -36,11 +36,17 @@ class DeviceGPUActivity : AppCompatActivity() {
     }
 
     private fun saveVendor(vendor: String) {
-        StringPreference(this@DeviceGPUActivity, GPUVendorPreferenceConfiguration()).save(vendor)
+        StringPreference(
+            this@DeviceGPUActivity,
+            GPUVendorPreferenceSupport()
+        ).save(vendor)
     }
 
     private fun saveModel(model: String) {
-        StringPreference(this@DeviceGPUActivity, GPUModelPreferenceConfiguration()).save(model)
+        StringPreference(
+            this@DeviceGPUActivity,
+            GPUModelPreferenceSupport()
+        ).save(model)
     }
 
     private fun completeSave() {

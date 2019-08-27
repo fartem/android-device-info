@@ -2,10 +2,10 @@ package com.smlnskgmail.jaman.deviceinfo.navigation.infopages
 
 import com.smlnskgmail.jaman.deviceinfo.info.system.DeviceSystemInfo
 import com.smlnskgmail.jaman.deviceinfo.info.system.infoitems.*
-import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoFragment
+import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
 
-class DeviceSystemFragment : BaseListInfoFragment() {
+class DeviceSystemPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
         val systemInfo = DeviceSystemInfo(context!!)
@@ -30,5 +30,7 @@ class DeviceSystemFragment : BaseListInfoFragment() {
             UserInfoItem(context!!, systemInfo)
         )
     }
+
+    override fun pageTitle() = "System"
 
 }

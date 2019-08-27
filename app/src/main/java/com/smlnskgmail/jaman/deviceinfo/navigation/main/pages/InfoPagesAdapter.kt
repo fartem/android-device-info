@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.main
+package com.smlnskgmail.jaman.deviceinfo.navigation.main.pages
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -16,5 +16,7 @@ class InfoPagesAdapter(
     override fun createFragment(position: Int) = pages[position]
 
     override fun getItemCount() = pages.size
+
+
 
 }

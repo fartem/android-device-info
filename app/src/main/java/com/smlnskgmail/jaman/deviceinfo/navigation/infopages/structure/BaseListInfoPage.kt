@@ -4,11 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoAdapter
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.list.InfoItem
-import com.smlnskgmail.jaman.deviceinfo.navigation.main.pages.Page2
+import com.smlnskgmail.jaman.deviceinfo.navigation.main.viewpager.Page2
 import kotlinx.android.synthetic.main.fragment_list.*
 
 abstract class BaseListInfoPage : Page2() {

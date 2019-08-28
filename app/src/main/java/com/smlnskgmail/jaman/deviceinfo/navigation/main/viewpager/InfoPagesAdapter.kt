@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.main.pages
+package com.smlnskgmail.jaman.deviceinfo.navigation.main.viewpager
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

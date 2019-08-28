@@ -1,10 +1,9 @@
-package com.smlnskgmail.jaman.deviceinfo.navigation.main.pages
+package com.smlnskgmail.jaman.deviceinfo.navigation.main.viewpager
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.android.synthetic.main.activity_main.*
 
 class ViewPager2WithTabs(
 

@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu
 
-import com.smlnskgmail.jaman.deviceinfo.info.structure.CPUInfo
 import com.smlnskgmail.jaman.deviceinfo.components.data.NullHandle
+import com.smlnskgmail.jaman.deviceinfo.info.structure.CPUInfo
 import java.io.File
 import java.io.FileFilter
 import java.util.regex.Pattern

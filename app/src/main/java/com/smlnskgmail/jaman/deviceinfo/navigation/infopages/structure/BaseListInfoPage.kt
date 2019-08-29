@@ -13,8 +13,7 @@ import kotlinx.android.synthetic.main.fragment_list.*
 abstract class BaseListInfoPage : Page2() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        info_list.adapter =
-            InfoAdapter(infoItems())
+        info_list.adapter = InfoAdapter(infoItems())
     }
 
     abstract fun infoItems(): List<InfoItem>

@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.info.structure.tests
+package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
 import com.smlnskgmail.jaman.deviceinfo.info.structure.GPUIInfo
 import com.smlnskgmail.jaman.deviceinfo.info.structure.tools.FakeInfoStringResult

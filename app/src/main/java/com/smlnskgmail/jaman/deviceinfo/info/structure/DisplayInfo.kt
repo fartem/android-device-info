@@ -16,23 +16,23 @@ interface DisplayInfo {
 
     class FakeDisplayInfo : DisplayInfo {
 
-        private val numberFakeResult = FakeInfoIntResult()
+        private val fakeNumberResult = FakeInfoIntResult()
 
         override fun display() = FakeInfoStringResult().value()
 
-        override fun density() = numberFakeResult.value().toFloat()
+        override fun density() = fakeNumberResult.value().toFloat()
 
-        override fun densityDpi() = numberFakeResult.value()
+        override fun densityDpi() = fakeNumberResult.value()
 
-        override fun scaledDensity() = numberFakeResult.value().toFloat()
+        override fun scaledDensity() = fakeNumberResult.value().toFloat()
 
-        override fun widthPixels() = numberFakeResult.value()
+        override fun widthPixels() = fakeNumberResult.value()
 
-        override fun heightPixels() = numberFakeResult.value()
+        override fun heightPixels() = fakeNumberResult.value()
 
-        override fun xDpi() = numberFakeResult.value().toFloat()
+        override fun xDpi() = fakeNumberResult.value().toFloat()
 
-        override fun yDpi() = numberFakeResult.value().toFloat()
+        override fun yDpi() = fakeNumberResult.value().toFloat()
 
     }
 

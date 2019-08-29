@@ -1,8 +1,8 @@
-package com.smlnskgmail.jaman.deviceinfo.info.structure.tests
+package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
 import com.smlnskgmail.jaman.deviceinfo.info.structure.BatteryInfo
 import com.smlnskgmail.jaman.deviceinfo.info.structure.tools.FakeInfoStringResult
-import junit.framework.Assert.assertEquals
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class BatteryInfoTest {

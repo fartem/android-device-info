@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         ViewPager2WithTabs(info_pages, info_tabs, this, pages()).attach()
     }
 
-    private fun pages() = listOf(
+    fun pages() = listOf(
         DeviceSystemPage(),
         DeviceCPUPage(),
         DeviceGPUPage(),

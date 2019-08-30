@@ -1,17 +1,20 @@
 package com.smlnskgmail.jaman.deviceinfo.api27.pixel
 
 import androidx.test.platform.app.InstrumentationRegistry
+import com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu.DeviceCPUInfo
+import com.smlnskgmail.jaman.deviceinfo.info.implementation.gpu.DeviceGPUIInfo
+import com.smlnskgmail.jaman.deviceinfo.info.implementation.jvm.DeviceJVMInfo
+import com.smlnskgmail.jaman.deviceinfo.info.implementation.ram.DeviceRAMInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.system.DeviceSystemInfo
-import org.junit.Assert.assertEquals
-import org.junit.Assert.assertNotNull
+import org.junit.Assert.*
 import org.junit.Test
 
 class PixelApi27InfoTest {
 
-    private val context = InstrumentationRegistry.getInstrumentation().context
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
 
     @Test
-    private fun checkSystemPage() {
+    fun checkSystemPage() {
         val systemInfo = DeviceSystemInfo(context)
 
         assertEquals(systemInfo.apiLevel(), "27")
@@ -34,32 +37,45 @@ class PixelApi27InfoTest {
     }
 
     @Test
-    private fun checkCPUPage() {
+    fun checkCPUPage() {
+        val cpuInfo = DeviceCPUInfo()
+
+        assertNotNull(cpuInfo.cores())
+        assertNotNull(cpuInfo.minimumFreq())
+        assertNotNull(cpuInfo.maximumFreq())
+    }
+
+    @Test
+    fun checkGPUPage() {
+        val gpuInfo = DeviceGPUIInfo(context)
+
+        assertNotNull(gpuInfo.model())
+        assertNotNull(gpuInfo.vendor())
+    }
+
+    @Test
+    fun checkJVMPage() {
+        val jvmInfo = DeviceJVMInfo(context)
+
+        assertEquals(jvmInfo.jvmName(), "ART")
+    }
+
+    @Test
+    fun checkRAMPage() {
+        val ramInfo = DeviceRAMInfo(context)
+        ramInfo.loadState()
+
+        assertTrue(ramInfo.availableRAM() > 0)
+        assertTrue(ramInfo.totalRAM() > 0)
+    }
+
+    @Test
+    fun checkBatteryPage() {
 
     }
 
     @Test
-    private fun checkGPUPage() {
-
-    }
-
-    @Test
-    private fun checkJVMPage() {
-
-    }
-
-    @Test
-    private fun checkRAMPage() {
-
-    }
-
-    @Test
-    private fun checkBatteryPage() {
-
-    }
-
-    @Test
-    private fun checkDisplayPage() {
+    fun checkDisplayPage() {
 
     }
 

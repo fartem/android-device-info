@@ -12,12 +12,13 @@ import org.junit.Test
 
 class PixelApi27UITest {
 
+    @JvmField
     @Rule
     var activityTestRule = ActivityTestRule(MainActivity::class.java)
 
     @Test
     fun runTest() {
-        val pagesCount =activityTestRule.activity.pages().size
+        val pagesCount = activityTestRule.activity.pages().size
         assertEquals(pagesCount, 7)
 
         for (i in 0..pagesCount) {

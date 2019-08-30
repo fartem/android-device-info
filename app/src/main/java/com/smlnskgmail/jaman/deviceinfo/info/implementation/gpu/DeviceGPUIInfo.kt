@@ -8,14 +8,8 @@ import com.smlnskgmail.jaman.deviceinfo.info.structure.GPUIInfo
 
 class DeviceGPUIInfo(private val context: Context) : GPUIInfo {
 
-    override fun vendor() = StringPreference(
-        context,
-        GPUVendorPreferenceSupport()
-    ).value()
+    override fun vendor() = StringPreference(context, GPUVendorPreferenceSupport()).value()
 
-    override fun model() = StringPreference(
-        context,
-        GPUModelPreferenceSupport()
-    ).value()
+    override fun model() = StringPreference(context, GPUModelPreferenceSupport()).value()
 
 }

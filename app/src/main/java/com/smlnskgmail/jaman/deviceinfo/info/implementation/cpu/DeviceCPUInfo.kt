@@ -46,11 +46,12 @@ class DeviceCPUInfo : CPUInfo {
         return maximumFreq
     }
 
-    private fun adoptedString(string: String): String {
-        if (string.endsWith("\n")) {
-            return string.substring(0, string.length - 1)
+    private fun adoptedString(string: String?): String {
+        return when {
+            string.isNullOrEmpty() -> "0"
+            string.endsWith("\n") -> string.substring(0, string.length - 1)
+            else -> string
         }
-        return string
     }
 
     private fun cat(path: String): String {

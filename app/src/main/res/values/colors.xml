@@ -13,6 +13,6 @@
     <color name="colorSecondaryText">#757575</color>
 
     <!-- UI -->
-    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorDivideLine">#BDBDBD</color>
     <color name="colorTabsLineBackground">#80BDBDBD</color>
 </resources>

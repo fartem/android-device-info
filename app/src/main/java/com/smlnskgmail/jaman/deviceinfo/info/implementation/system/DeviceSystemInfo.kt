@@ -10,34 +10,34 @@ import java.util.*
 
 class DeviceSystemInfo(private val context: Context) : SystemInfo {
 
-    override fun model() = Build.MODEL
+    override fun model(): String = Build.MODEL
 
-    override fun product() = Build.PRODUCT
+    override fun product(): String = Build.PRODUCT
 
-    override fun brand() = Build.BRAND
+    override fun brand(): String = Build.BRAND
 
-    override fun type() = Build.TYPE
+    override fun type(): String = Build.TYPE
 
-    override fun manufacturer() = Build.MANUFACTURER
+    override fun manufacturer(): String = Build.MANUFACTURER
 
-    override fun board() = Build.BOARD
+    override fun board(): String = Build.BOARD
 
-    override fun hardware() = Build.HARDWARE
+    override fun hardware(): String = Build.HARDWARE
 
-    override fun releaseVersion() = Build.VERSION.RELEASE
+    override fun releaseVersion(): String = Build.VERSION.RELEASE
 
-    override fun apiLevel() = Build.VERSION.SDK
+    override fun apiLevel(): String = Build.VERSION.SDK
 
-    override fun user() = Build.USER
+    override fun user(): String = Build.USER
 
-    override fun host() = Build.HOST
+    override fun host(): String = Build.HOST
 
-    override fun fingerprint() = Build.FINGERPRINT
+    override fun fingerprint(): String = Build.FINGERPRINT
 
-    override fun bootloader() = Build.BOOTLOADER
+    override fun bootloader(): String = Build.BOOTLOADER
 
     override fun arch(): String {
-        val arch = java.lang.System.getProperty("os.arch")
+        val arch = System.getProperty("os.arch")
         return if (!arch.isNullOrEmpty()) {
             arch
         } else {
@@ -46,7 +46,7 @@ class DeviceSystemInfo(private val context: Context) : SystemInfo {
     }
 
     override fun kernelVersion(): String {
-        val kernelVersion = java.lang.System.getProperty("os.version")
+        val kernelVersion = System.getProperty("os.version")
         return if (!kernelVersion.isNullOrEmpty()) {
             kernelVersion
         } else {

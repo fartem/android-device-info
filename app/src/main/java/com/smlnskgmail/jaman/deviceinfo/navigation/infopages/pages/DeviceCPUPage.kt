@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu.DeviceCPUInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu.infoitems.CPUCoresInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu.infoitems.CPUFreqInfoItem
@@ -17,6 +18,6 @@ class DeviceCPUPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "CPU"
+    override fun pageTitle() = getString(R.string.page_title_cpu)
 
 }

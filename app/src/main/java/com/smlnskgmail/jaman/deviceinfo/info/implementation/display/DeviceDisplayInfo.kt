@@ -13,7 +13,7 @@ class DeviceDisplayInfo(activity: Activity) : DisplayInfo {
         activity.windowManager.defaultDisplay.getMetrics(displayMetrics)
     }
 
-    override fun display() = Build.DISPLAY
+    override fun display() = Build.DISPLAY!!
 
     override fun density() = displayMetrics.density
 

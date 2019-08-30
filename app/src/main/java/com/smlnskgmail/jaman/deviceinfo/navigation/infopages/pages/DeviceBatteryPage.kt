@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.battery.DeviceBatteryInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.battery.infoitems.BatteryActionInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.battery.infoitems.BatteryHealthInfoItem
@@ -19,6 +20,6 @@ class DeviceBatteryPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "Battery"
+    override fun pageTitle() = getString(R.string.page_title_battery)
 
 }

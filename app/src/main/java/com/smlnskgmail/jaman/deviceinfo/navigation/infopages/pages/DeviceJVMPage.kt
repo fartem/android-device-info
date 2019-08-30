@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.jvm.DeviceJVMInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.jvm.infoitems.JVMNameInfoItem
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoPage
@@ -15,6 +16,6 @@ class DeviceJVMPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "JVM"
+    override fun pageTitle() = getString(R.string.page_title_jvm)
 
 }

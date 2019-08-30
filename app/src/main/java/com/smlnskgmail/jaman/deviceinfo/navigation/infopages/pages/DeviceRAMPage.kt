@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.ram.DeviceRAMInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.ram.infoitems.AvailableRAMInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.ram.infoitems.TotalRAMInfoItem
@@ -18,6 +19,6 @@ class DeviceRAMPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "RAM"
+    override fun pageTitle() = getString(R.string.page_title_ram)
 
 }

@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.display.DeviceDisplayInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.display.infoitems.*
 import com.smlnskgmail.jaman.deviceinfo.navigation.infopages.structure.BaseListInfoPage
@@ -22,6 +23,6 @@ class DeviceDisplayPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "Display"
+    override fun pageTitle() = getString(R.string.page_title_display)
 
 }

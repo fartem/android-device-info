@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.navigation.infopages.pages
 
+import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.gpu.DeviceGPUIInfo
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.gpu.infoitems.GPUModelInfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.implementation.gpu.infoitems.GPUVendorInfoItem
@@ -17,6 +18,6 @@ class DeviceGPUPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = "GPU"
+    override fun pageTitle() = getString(R.string.page_title_gpu)
 
 }

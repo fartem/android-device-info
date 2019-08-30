@@ -8,9 +8,7 @@ import com.smlnskgmail.jaman.deviceinfo.R
 class InfoAdapter(private val infoItems: List<InfoItem>) : RecyclerView.Adapter<InfoHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)
-            = InfoHolder(
-        LayoutInflater.from(parent.context).inflate(R.layout.item_info, parent, false)
-    )
+            = InfoHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_info, parent, false))
 
     override fun onBindViewHolder(holder: InfoHolder, position: Int) {
         holder.bind(infoItems[position])

@@ -24,6 +24,15 @@
     <string name="battery_info_action_full">Full</string>
     <string name="battery_info_action_discharging">Discharging</string>
 
+    <!-- Pages titles -->
+    <string name="page_title_battery">Battery</string>
+    <string name="page_title_cpu">CPU</string>
+    <string name="page_title_display">Display</string>
+    <string name="page_title_gpu">GPU</string>
+    <string name="page_title_jvm">JVM</string>
+    <string name="page_title_ram">RAM</string>
+    <string name="page_title_system">System</string>
+
     <!-- Info items titles -->
     <string name="item_info_title_cpu_cores">Cores</string>
     <string name="item_info_title_cpu_freq">Freq</string>

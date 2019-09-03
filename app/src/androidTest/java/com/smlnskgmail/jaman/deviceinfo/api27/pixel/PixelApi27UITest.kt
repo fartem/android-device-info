@@ -5,7 +5,7 @@ import androidx.test.espresso.action.ViewActions.swipeLeft
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.rule.ActivityTestRule
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.navigation.main.MainActivity
+import com.smlnskgmail.jaman.deviceinfo.navigation.MainActivity
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test

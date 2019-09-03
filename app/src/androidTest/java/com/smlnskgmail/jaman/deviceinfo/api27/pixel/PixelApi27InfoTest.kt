@@ -3,14 +3,14 @@ package com.smlnskgmail.jaman.deviceinfo.api27.pixel
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.battery.DeviceBatteryInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.cpu.DeviceCPUInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.display.DeviceDisplayInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.gpu.DeviceGPUIInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.jvm.DeviceJVMInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.ram.DeviceRAMInfo
-import com.smlnskgmail.jaman.deviceinfo.info.implementation.system.DeviceSystemInfo
-import com.smlnskgmail.jaman.deviceinfo.navigation.main.MainActivity
+import com.smlnskgmail.jaman.deviceinfo.info.battery.realization.DeviceBatteryInfo
+import com.smlnskgmail.jaman.deviceinfo.info.cpu.realization.DeviceCPUInfo
+import com.smlnskgmail.jaman.deviceinfo.info.display.realization.DeviceDisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.info.gpu.realization.DeviceGPUIInfo
+import com.smlnskgmail.jaman.deviceinfo.info.jvm.realization.DeviceJVMInfo
+import com.smlnskgmail.jaman.deviceinfo.info.ram.realization.DeviceRAMInfo
+import com.smlnskgmail.jaman.deviceinfo.info.system.realization.DeviceSystemInfo
+import com.smlnskgmail.jaman.deviceinfo.navigation.MainActivity
 import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
@@ -81,7 +81,8 @@ class PixelApi27InfoTest {
 
     @Test
     fun checkBatteryPage() {
-        val batteryInfo = DeviceBatteryInfo(context)
+        val batteryInfo =
+            DeviceBatteryInfo(context)
 
         assertEquals(batteryInfo.health(), context.getString(R.string.battery_info_health_good))
         assertEquals(batteryInfo.pluggedStatus(), context.getString(R.string.battery_info_common_unknown))
@@ -90,7 +91,10 @@ class PixelApi27InfoTest {
 
     @Test
     fun checkDisplayPage() {
-        val displayInfo = DeviceDisplayInfo(activityTestRule.activity)
+        val displayInfo =
+            DeviceDisplayInfo(
+                activityTestRule.activity
+            )
 
         assertEquals(displayInfo.densityDpi(), 420)
         assertEquals(displayInfo.density(), 2.625f)

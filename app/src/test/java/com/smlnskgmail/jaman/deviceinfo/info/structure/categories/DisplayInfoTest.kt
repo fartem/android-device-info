@@ -1,8 +1,8 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
-import com.smlnskgmail.jaman.deviceinfo.info.structure.DisplayInfo
-import com.smlnskgmail.jaman.deviceinfo.info.structure.tools.FakeInfoIntResult
-import com.smlnskgmail.jaman.deviceinfo.info.structure.tools.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.display.structure.DisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.info.support.data.FakeInfoIntResult
+import com.smlnskgmail.jaman.deviceinfo.info.support.data.FakeInfoStringResult
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

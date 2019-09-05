@@ -33,6 +33,6 @@ class DeviceSystemPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = getString(R.string.page_title_system)
+    override fun pageTitleResId() = R.string.page_title_system
 
 }

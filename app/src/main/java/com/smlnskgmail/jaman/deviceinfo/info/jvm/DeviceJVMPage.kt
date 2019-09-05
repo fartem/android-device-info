@@ -15,6 +15,6 @@ class DeviceJVMPage : BaseListInfoPage() {
         return Collections.singletonList(JVMNameInfoItem(context!!, jvmInfo))
     }
 
-    override fun pageTitle() = getString(R.string.page_title_jvm)
+    override fun pageTitleResId() = R.string.page_title_jvm
 
 }

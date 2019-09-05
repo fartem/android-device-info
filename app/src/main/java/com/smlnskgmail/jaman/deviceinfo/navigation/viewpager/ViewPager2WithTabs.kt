@@ -18,7 +18,7 @@ class ViewPager2WithTabs(
         viewPager2.adapter = InfoPagesAdapter(activity.supportFragmentManager, activity.lifecycle, pages)
         val tabMediator = TabLayoutMediator(tabLayout, viewPager2, TabLayoutMediator
             .OnConfigureTabCallback { tab, position ->
-                tab.text = pages[position].pageTitle()
+                tab.text = viewPager2.context.getString(pages[position].pageTitleResId())
             })
         tabMediator.attach()
     }

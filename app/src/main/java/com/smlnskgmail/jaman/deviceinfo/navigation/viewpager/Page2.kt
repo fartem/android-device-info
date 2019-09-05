@@ -4,6 +4,6 @@ import androidx.fragment.app.Fragment
 
 abstract class Page2 : Fragment() {
 
-    abstract fun pageTitle(): String
+    abstract fun pageTitleResId(): Int
 
 }

@@ -17,6 +17,4 @@ class InfoPagesAdapter(
 
     override fun getItemCount() = pages.size
 
-
-
 }

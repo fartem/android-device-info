@@ -18,6 +18,6 @@ class DeviceGPUPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = getString(R.string.page_title_gpu)
+    override fun pageTitleResId() = R.string.page_title_gpu
 
 }

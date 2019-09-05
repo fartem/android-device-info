@@ -46,12 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadInfoPages() {
-        ViewPager2WithTabs(
-            info_pages,
-            info_tabs,
-            this,
-            pages()
-        ).attach()
+        ViewPager2WithTabs(info_pages, info_tabs, this, pages()).attach()
     }
 
     fun pages() = listOf(

@@ -18,6 +18,6 @@ class DeviceCPUPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = getString(R.string.page_title_cpu)
+    override fun pageTitleResId() = R.string.page_title_cpu
 
 }

@@ -19,6 +19,6 @@ class DeviceRAMPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = getString(R.string.page_title_ram)
+    override fun pageTitleResId() = R.string.page_title_ram
 
 }

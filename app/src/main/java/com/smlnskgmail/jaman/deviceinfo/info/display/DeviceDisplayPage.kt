@@ -23,6 +23,6 @@ class DeviceDisplayPage : BaseListInfoPage() {
         )
     }
 
-    override fun pageTitle() = getString(R.string.page_title_display)
+    override fun pageTitleResId() = R.string.page_title_display
 
 }

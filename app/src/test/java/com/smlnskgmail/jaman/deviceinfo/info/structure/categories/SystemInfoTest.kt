@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
-import com.smlnskgmail.jaman.deviceinfo.info.support.data.FakeInfoStringResult
-import com.smlnskgmail.jaman.deviceinfo.info.system.structure.SystemInfo
+import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.components.system.structure.SystemInfo
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

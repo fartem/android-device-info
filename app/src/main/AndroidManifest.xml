@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.smlnskgmail.jaman.deviceinfo.info.gpu.realization.components.DeviceGPUActivity" />
+        <activity android:name="com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.components.DeviceGPUActivity" />
     </application>
 
 </manifest>

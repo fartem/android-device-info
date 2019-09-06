@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.tools
 
-import com.smlnskgmail.jaman.deviceinfo.info.support.data.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoStringResult
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

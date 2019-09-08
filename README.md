@@ -6,11 +6,11 @@ Demonstration app for displaying some information about Android device.
 
 <br/>
 <p align="center">
-  <img src="media/screenshots_01.png" width="110" />
-  <img src="media/screenshots_02.png" width="110" />
-  <img src="media/screenshots_03.png" width="110" />
-  <img src="media/screenshots_04.png" width="110" />
-  <img src="media/screenshots_05.png" width="110" />
-  <img src="media/screenshots_06.png" width="110" />
-  <img src="media/screenshots_07.png" width="110" />
+  <img src="media/screenshot_01.png" width="110" />
+  <img src="media/screenshot_02.png" width="110" />
+  <img src="media/screenshot_03.png" width="110" />
+  <img src="media/screenshot_04.png" width="110" />
+  <img src="media/screenshot_05.png" width="110" />
+  <img src="media/screenshot_06.png" width="110" />
+  <img src="media/screenshot_07.png" width="110" />
 </p>

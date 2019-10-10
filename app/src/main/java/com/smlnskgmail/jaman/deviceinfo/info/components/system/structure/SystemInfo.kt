@@ -24,8 +24,7 @@ interface SystemInfo {
 
     class FakeSystemInfo : SystemInfo {
 
-        private val fakeResult =
-            FakeInfoStringResult()
+        private val fakeResult = FakeInfoStringResult()
 
         override fun model() = fakeResult.value()
 

@@ -13,7 +13,7 @@ class CPUFreqInfoItem(private val context: Context, private val cpuInfo: CPUInfo
     override fun body(): String {
         val minimumFreq = Ghz(cpuInfo.minimumFreq()).value()
         val maximumFreq = Ghz(cpuInfo.maximumFreq()).value()
-        return String.format("%.1f - %.1f Ghz", minimumFreq, maximumFreq)
+        return "%.1f - %.1f Ghz".format(minimumFreq, maximumFreq)
     }
 
 }

@@ -81,8 +81,7 @@ class PixelApi27InfoTest {
 
     @Test
     fun checkBatteryPage() {
-        val batteryInfo =
-            DeviceBatteryInfo(context)
+        val batteryInfo = DeviceBatteryInfo(context)
 
         assertEquals(batteryInfo.health(), context.getString(R.string.battery_info_health_good))
         assertEquals(batteryInfo.pluggedStatus(), context.getString(R.string.battery_info_common_unknown))
@@ -91,10 +90,7 @@ class PixelApi27InfoTest {
 
     @Test
     fun checkDisplayPage() {
-        val displayInfo =
-            DeviceDisplayInfo(
-                activityTestRule.activity
-            )
+        val displayInfo = DeviceDisplayInfo(activityTestRule.activity)
 
         assertEquals(displayInfo.densityDpi(), 420)
         assertEquals(displayInfo.density(), 2.625f)

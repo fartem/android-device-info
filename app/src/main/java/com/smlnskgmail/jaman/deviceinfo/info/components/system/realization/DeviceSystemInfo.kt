@@ -8,8 +8,7 @@ import com.smlnskgmail.jaman.deviceinfo.info.components.system.structure.SystemI
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DeviceSystemInfo(private val context: Context) :
-    SystemInfo {
+class DeviceSystemInfo(private val context: Context) : SystemInfo {
 
     override fun model(): String = Build.MODEL
 
@@ -39,20 +38,12 @@ class DeviceSystemInfo(private val context: Context) :
 
     override fun arch(): String {
         val arch = System.getProperty("os.arch")
-        return if (!arch.isNullOrEmpty()) {
-            arch
-        } else {
-            errorResult()
-        }
+        return if (!arch.isNullOrEmpty()) arch else errorResult()
     }
 
     override fun kernelVersion(): String {
         val kernelVersion = System.getProperty("os.version")
-        return if (!kernelVersion.isNullOrEmpty()) {
-            kernelVersion
-        } else {
-            errorResult()
-        }
+        return if (!kernelVersion.isNullOrEmpty()) kernelVersion else errorResult()
     }
 
     @SuppressLint("SimpleDateFormat")

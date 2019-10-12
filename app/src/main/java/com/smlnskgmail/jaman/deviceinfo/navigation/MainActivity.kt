@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.support.preferences.common.FirstLaunchPreferenceSupport
-import com.smlnskgmail.jaman.deviceinfo.support.preferences.types.BooleanPreference
 import com.smlnskgmail.jaman.deviceinfo.info.components.battery.DeviceBatteryPage
 import com.smlnskgmail.jaman.deviceinfo.info.components.cpu.DeviceCPUPage
 import com.smlnskgmail.jaman.deviceinfo.info.components.display.DeviceDisplayPage
@@ -16,6 +14,8 @@ import com.smlnskgmail.jaman.deviceinfo.info.components.jvm.DeviceJVMPage
 import com.smlnskgmail.jaman.deviceinfo.info.components.ram.DeviceRAMPage
 import com.smlnskgmail.jaman.deviceinfo.info.components.system.DeviceSystemPage
 import com.smlnskgmail.jaman.deviceinfo.navigation.viewpager.ViewPager2WithTabs
+import com.smlnskgmail.jaman.deviceinfo.support.preferences.common.FirstLaunchPreferenceSupport
+import com.smlnskgmail.jaman.deviceinfo.support.preferences.types.BooleanPreference
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

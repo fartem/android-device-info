@@ -2,8 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.info.components.system.realization.info
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.info.ui.list.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.components.system.structure.SystemInfo
+import com.smlnskgmail.jaman.deviceinfo.info.ui.list.InfoItem
 
 class ArchInfoItem(private val context: Context, private val systemInfo: SystemInfo) : InfoItem {
 

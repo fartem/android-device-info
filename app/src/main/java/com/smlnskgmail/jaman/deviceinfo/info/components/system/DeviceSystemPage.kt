@@ -1,11 +1,11 @@
 package com.smlnskgmail.jaman.deviceinfo.info.components.system
 
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.info.ui.BaseListInfoPage
-import com.smlnskgmail.jaman.deviceinfo.info.ui.list.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.info.components.system.realization.DeviceSystemInfo
 import com.smlnskgmail.jaman.deviceinfo.info.components.system.realization.infoitems.*
 import com.smlnskgmail.jaman.deviceinfo.info.components.system.structure.SystemInfo
+import com.smlnskgmail.jaman.deviceinfo.info.ui.BaseListInfoPage
+import com.smlnskgmail.jaman.deviceinfo.info.ui.list.InfoItem
 
 class DeviceSystemPage : BaseListInfoPage() {
 

@@ -4,10 +4,10 @@ import android.opengl.GLSurfaceView
 import android.os.Bundle
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.smlnskgmail.jaman.deviceinfo.support.preferences.types.StringPreference
 import com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.components.config.GPURequestCode
 import com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.preferences.GPUModelPreferenceSupport
 import com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.preferences.GPUVendorPreferenceSupport
+import com.smlnskgmail.jaman.deviceinfo.support.preferences.types.StringPreference
 import javax.microedition.khronos.egl.EGLConfig
 import javax.microedition.khronos.opengles.GL10
 

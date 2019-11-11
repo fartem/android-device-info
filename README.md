@@ -1,8 +1,15 @@
-# Android Device Info
+<img src="media/ic_app.png" height="100px" />
 
-Demonstration app for displaying some information about Android device.
+![Open issues](https://img.shields.io/github/issues-raw/fartem/android-device-info.svg?color=ff534a)
+![Last commit](https://img.shields.io/github/last-commit/fartem/android-device-info.svg?color=51539c)
+![Repo size](https://img.shields.io/github/repo-size/fartem/android-device-info.svg?color=02778b)
+[![License](https://img.shields.io/github/license/fartem/android-device-info.svg?color=7ea4b0)](https://github.com/fartem/hash-checker/blob/master/LICENSE)
 
-## 1. Screenshots
+## About
+
+Demonstration app for displaying information about Android device.
+
+## Screenshots
 
 <br/>
 <p align="center">

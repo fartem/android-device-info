@@ -1,24 +1,30 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
-import com.smlnskgmail.jaman.deviceinfo.info.components.gpu.structure.GPUIInfo
-import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.FakeGPUInfo
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class GPUIInfoTest {
 
-    private val gpuInfo = GPUIInfo.FakeGPUInfo()
+    private val gpuInfo = FakeGPUInfo()
 
     private val fakeResult = FakeInfoStringResult().value()
 
     @Test
     fun vendor() {
-        assertEquals(gpuInfo.vendor(), fakeResult)
+        assertEquals(
+            fakeResult,
+            gpuInfo.vendor()
+        )
     }
 
     @Test
     fun model() {
-        assertEquals(gpuInfo.model(), fakeResult)
+        assertEquals(
+            fakeResult,
+            gpuInfo.model()
+        )
     }
 
 }

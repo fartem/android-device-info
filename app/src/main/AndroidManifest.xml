@@ -11,14 +11,14 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".navigation.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.components.DeviceGPUActivity" />
+        <activity android:name="com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.gpu.renderer.DeviceGPUActivity" />
     </application>
 
 </manifest>

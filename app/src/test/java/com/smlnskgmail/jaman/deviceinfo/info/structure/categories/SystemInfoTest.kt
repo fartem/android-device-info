@@ -1,99 +1,150 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
-import com.smlnskgmail.jaman.deviceinfo.info.components.system.structure.SystemInfo
-import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.FakeSystemInfo
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class SystemInfoTest {
 
-    private val systemInfo = SystemInfo.FakeSystemInfo()
+    private val systemInfo = FakeSystemInfo()
 
     private val fakeResult = FakeInfoStringResult().value()
 
     @Test
     fun model() {
-        assertEquals(systemInfo.model(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.model()
+        )
     }
 
     @Test
     fun product() {
-        assertEquals(systemInfo.product(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.product()
+        )
     }
 
     @Test
     fun brand() {
-        assertEquals(systemInfo.brand(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.brand()
+        )
     }
 
     @Test
     fun type() {
-        assertEquals(systemInfo.type(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.type()
+        )
     }
 
     @Test
     fun manufacturer() {
-        assertEquals(systemInfo.manufacturer(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.manufacturer()
+        )
     }
 
     @Test
     fun board() {
-        assertEquals(systemInfo.board(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.board()
+        )
     }
 
     @Test
     fun hardware() {
-        assertEquals(systemInfo.hardware(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.hardware()
+        )
     }
 
     @Test
     fun releaseVersion() {
-        assertEquals(systemInfo.releaseVersion(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.releaseVersion()
+        )
     }
 
     @Test
     fun apiLevel() {
-        assertEquals(systemInfo.apiLevel(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.apiLevel()
+        )
     }
 
     @Test
     fun user() {
-        assertEquals(systemInfo.user(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.user()
+        )
     }
 
     @Test
     fun host() {
-        assertEquals(systemInfo.host(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.host()
+        )
     }
 
     @Test
     fun fingerprint() {
-        assertEquals(systemInfo.fingerprint(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.fingerprint()
+        )
     }
 
     @Test
     fun bootloader() {
-        assertEquals(systemInfo.bootloader(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.bootloader()
+        )
     }
 
     @Test
     fun arch() {
-        assertEquals(systemInfo.arch(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.arch()
+        )
     }
 
     @Test
     fun kernelVersion() {
-        assertEquals(systemInfo.kernelVersion(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.kernelVersion()
+        )
     }
 
     @Test
     fun date() {
-        assertEquals(systemInfo.date(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.date()
+        )
     }
 
     @Test
     fun codeName() {
-        assertEquals(systemInfo.codeName(), fakeResult)
+        assertEquals(
+            fakeResult,
+            systemInfo.codeName()
+        )
     }
 
 }

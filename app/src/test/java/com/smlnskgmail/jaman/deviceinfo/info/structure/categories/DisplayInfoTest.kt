@@ -1,55 +1,79 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories
 
-import com.smlnskgmail.jaman.deviceinfo.info.components.display.structure.DisplayInfo
-import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoIntResult
-import com.smlnskgmail.jaman.deviceinfo.info.defaultdata.FakeInfoStringResult
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.FakeDisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoIntResult
+import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class DisplayInfoTest {
 
-    private val displayInfo = DisplayInfo.FakeDisplayInfo()
+    private val displayInfo = FakeDisplayInfo()
 
     private val fakeNumberResult = FakeInfoIntResult().value()
 
     @Test
     fun display() {
-        assertEquals(displayInfo.display(), FakeInfoStringResult().value())
+        assertEquals(
+            FakeInfoStringResult().value(),
+            displayInfo.display()
+        )
     }
 
     @Test
     fun density() {
-        assertEquals(displayInfo.density(), fakeNumberResult.toFloat())
+        assertEquals(
+            fakeNumberResult.toFloat(),
+            displayInfo.density()
+        )
     }
 
     @Test
     fun densityDpi() {
-        assertEquals(displayInfo.densityDpi(), fakeNumberResult)
+        assertEquals(
+            fakeNumberResult,
+            displayInfo.densityDpi()
+        )
     }
 
     @Test
     fun scaledDensity() {
-        assertEquals(displayInfo.scaledDensity(), fakeNumberResult.toFloat())
+        assertEquals(
+            fakeNumberResult.toFloat(),
+            displayInfo.scaledDensity()
+        )
     }
 
     @Test
     fun widthPixels() {
-        assertEquals(displayInfo.widthPixels(), fakeNumberResult)
+        assertEquals(
+            fakeNumberResult,
+            displayInfo.widthPixels()
+        )
     }
 
     @Test
     fun heightPixels() {
-        assertEquals(displayInfo.heightPixels(), fakeNumberResult)
+        assertEquals(
+            fakeNumberResult,
+            displayInfo.heightPixels()
+        )
     }
 
     @Test
     fun xDpi() {
-        assertEquals(displayInfo.xDpi(), fakeNumberResult.toFloat())
+        assertEquals(
+            fakeNumberResult.toFloat(),
+            displayInfo.xDpi()
+        )
     }
 
     @Test
     fun yDpi() {
-        assertEquals(displayInfo.yDpi(), fakeNumberResult.toFloat())
+        assertEquals(
+            fakeNumberResult.toFloat(),
+            displayInfo.yDpi()
+        )
     }
 
 }

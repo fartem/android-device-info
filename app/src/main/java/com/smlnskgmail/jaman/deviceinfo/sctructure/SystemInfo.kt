@@ -1,5 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.sctructure
 
+@SuppressWarnings("TooManyFunctions")
 interface SystemInfo {
 
     fun model(): String

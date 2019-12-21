@@ -1,6 +1,28 @@
 console-reports:
   active: true
 
+comments:
+  active: true
+  excludes: "**/test/**,**/androidTest/**,**/*.Test.kt,**/*.Spec.kt,**/*.Spek.kt"
+  CommentOverPrivateFunction:
+    active: false
+  CommentOverPrivateProperty:
+    active: false
+  EndOfSentenceFormat:
+    active: false
+    endOfSentenceFormat: ([.?!][ \t\n\r\f<])|([.?!:]$)
+  UndocumentedPublicClass:
+    active: false
+    searchInNestedClass: true
+    searchInInnerClass: true
+    searchInInnerObject: true
+    searchInInnerInterface: true
+  UndocumentedPublicProperty:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
+
+
 complexity:
   active: true
   ComplexCondition:
@@ -34,6 +56,17 @@ complexity:
   NestedBlockDepth:
     active: true
     threshold: 4
+  TooManyFunctions:
+    active: true
+    excludes: "**/test/**,**/androidTest/**,**/*.Test.kt,**/*.Spec.kt,**/*.Spek.kt"
+    thresholdInFiles: 11
+    thresholdInClasses: 19
+    thresholdInInterfaces: 11
+    thresholdInObjects: 11
+    thresholdInEnums: 11
+    ignoreDeprecated: false
+    ignorePrivate: false
+    ignoreOverridden: false
 
 empty-blocks:
   active: true
@@ -131,7 +164,7 @@ formatting:
     active: true
     autoCorrect: true
   NoWildcardImports:
-    active: true
+    active: false
   PackageName:
     active: true
     autoCorrect: true
@@ -297,6 +330,8 @@ potential-bugs:
 
 style:
   active: true
+  UnnecessaryAbstractClass:
+    active: false
   CollapsibleIfStatements:
     active: false
   DataClassContainsFunctions:
@@ -349,4 +384,8 @@ style:
   NewLineAtEndOfFile:
     active: true
   NoTabs:
+    active: false
+  OptionalWhenBraces:
+    active: false
+  WildcardImport:
     active: false

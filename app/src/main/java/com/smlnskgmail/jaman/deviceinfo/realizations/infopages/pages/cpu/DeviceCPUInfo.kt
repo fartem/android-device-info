@@ -6,7 +6,6 @@ import java.io.File
 import java.io.FileFilter
 import java.util.regex.Pattern
 
-
 class DeviceCPUInfo : CPUInfo {
 
     override fun cores() = Runtime.getRuntime().availableProcessors()
@@ -54,6 +53,7 @@ class DeviceCPUInfo : CPUInfo {
         }
     }
 
+    @SuppressWarnings("SpreadOperator")
     private fun cat(path: String): String {
         val command = arrayOf("cat", path)
         val process = ProcessBuilder(*command).start()

@@ -13,5 +13,5 @@ class ModelInfoItem(
     override fun title() = context.getString(R.string.item_info_title_system_model)
 
     override fun body() = systemInfo.model()
-    
+
 }

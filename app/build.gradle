@@ -18,6 +18,8 @@ android {
 }
 
 detekt {
+    failFast = true
+
     config = files("$rootDir/detekt-config.yml")
     filters = ".*build.*,.*/resources/.*,.*/tmp/.*,*.java"
 }

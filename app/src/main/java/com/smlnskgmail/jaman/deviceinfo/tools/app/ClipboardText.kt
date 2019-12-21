@@ -5,7 +5,7 @@ import android.content.ClipboardManager
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
 
-class ClipboardText(
+data class ClipboardText(
     private val context: Context,
     private val text: String
 ) {

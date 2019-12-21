@@ -5,7 +5,10 @@ import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.sctructure.DisplayInfo
 
-class YDpiInfoItem(private val context: Context, private val displayInfo: DisplayInfo) : InfoItem {
+class YDpiInfoItem(
+    private val context: Context,
+    private val displayInfo: DisplayInfo
+) : InfoItem {
 
     override fun title() = context.getString(R.string.item_info_title_display_ydpi)
 

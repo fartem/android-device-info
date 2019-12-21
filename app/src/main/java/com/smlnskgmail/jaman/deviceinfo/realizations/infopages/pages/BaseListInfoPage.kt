@@ -18,7 +18,10 @@ abstract class BaseListInfoPage : Page2() {
 
     abstract fun infoItems(): List<InfoItem>
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?)
-            : View = inflater.inflate(R.layout.fragment_list, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ) : View = inflater.inflate(R.layout.fragment_list, container, false)
 
 }

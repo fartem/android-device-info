@@ -4,8 +4,7 @@ import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.sctructure.JVMInfo
 
-class DeviceJVMInfo(private val context: Context) :
-    JVMInfo {
+class DeviceJVMInfo(private val context: Context) : JVMInfo {
 
     override fun jvmName(): String {
         val jvmName = System.getProperty("java.vm.version")

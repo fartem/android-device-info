@@ -9,10 +9,7 @@ import com.smlnskgmail.jaman.deviceinfo.sctructure.DisplayInfo
 class DeviceDisplayPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
-        val displayInfo: DisplayInfo =
-            DeviceDisplayInfo(
-                activity!!
-            )
+        val displayInfo: DisplayInfo = DeviceDisplayInfo(activity!!)
         return listOf(
             DensityDpiInfoItem(
                 context!!,

@@ -5,8 +5,7 @@ import android.os.Build
 import android.util.DisplayMetrics
 import com.smlnskgmail.jaman.deviceinfo.sctructure.DisplayInfo
 
-class DeviceDisplayInfo(activity: Activity) :
-    DisplayInfo {
+class DeviceDisplayInfo(activity: Activity) : DisplayInfo {
 
     private var displayMetrics: DisplayMetrics = DisplayMetrics()
 

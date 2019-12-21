@@ -9,11 +9,7 @@ import com.smlnskgmail.jaman.deviceinfo.sctructure.SystemInfo
 class DeviceSystemPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
-        val systemInfo: SystemInfo =
-            DeviceSystemInfo(
-                context!!
-            )
-
+        val systemInfo: SystemInfo = DeviceSystemInfo(context!!)
         return listOf(
             ApiLevelInfoItem(
                 context!!,

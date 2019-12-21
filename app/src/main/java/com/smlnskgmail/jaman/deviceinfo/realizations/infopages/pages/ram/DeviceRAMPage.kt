@@ -10,10 +10,7 @@ import com.smlnskgmail.jaman.deviceinfo.sctructure.RAMInfo
 class DeviceRAMPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
-        val ramInfo: RAMInfo =
-            DeviceRAMInfo(
-                context!!
-            )
+        val ramInfo: RAMInfo = DeviceRAMInfo(context!!)
         ramInfo.loadState()
         return listOf(
             AvailableRAMInfoItem(

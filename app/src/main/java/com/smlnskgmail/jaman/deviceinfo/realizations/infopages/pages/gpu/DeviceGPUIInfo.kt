@@ -6,8 +6,7 @@ import com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.gpu.prefere
 import com.smlnskgmail.jaman.deviceinfo.sctructure.GPUIInfo
 import com.smlnskgmail.jaman.deviceinfo.tools.preferences.types.StringPreference
 
-class DeviceGPUIInfo(private val context: Context) :
-    GPUIInfo {
+class DeviceGPUIInfo(private val context: Context) : GPUIInfo {
 
     override fun vendor() = StringPreference(context, GPUVendorPreferenceUnit()).value()
 

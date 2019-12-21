@@ -34,11 +34,17 @@ class DeviceGPUActivity : AppCompatActivity() {
     }
 
     private fun saveVendor(vendor: String) {
-        StringPreference(this@DeviceGPUActivity, GPUVendorPreferenceUnit()).save(vendor)
+        StringPreference(
+            this@DeviceGPUActivity,
+            GPUVendorPreferenceUnit()
+        ).save(vendor)
     }
 
     private fun saveModel(model: String) {
-        StringPreference(this@DeviceGPUActivity, GPUModelPreferenceUnit()).save(model)
+        StringPreference(
+            this@DeviceGPUActivity,
+            GPUModelPreferenceUnit()
+        ).save(model)
     }
 
     private fun completeSave() {

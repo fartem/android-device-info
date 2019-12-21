@@ -8,8 +8,7 @@ import com.smlnskgmail.jaman.deviceinfo.sctructure.SystemInfo
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DeviceSystemInfo(private val context: Context) :
-    SystemInfo {
+class DeviceSystemInfo(private val context: Context) : SystemInfo {
 
     override fun model(): String = Build.MODEL
 

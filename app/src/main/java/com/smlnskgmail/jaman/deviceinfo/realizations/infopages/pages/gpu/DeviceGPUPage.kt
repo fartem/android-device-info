@@ -10,10 +10,7 @@ import com.smlnskgmail.jaman.deviceinfo.sctructure.GPUIInfo
 class DeviceGPUPage : BaseListInfoPage() {
 
     override fun infoItems(): List<InfoItem> {
-        val gpuInfo: GPUIInfo =
-            DeviceGPUIInfo(
-                context!!
-            )
+        val gpuInfo: GPUIInfo = DeviceGPUIInfo(context!!)
         return listOf(
             GPUModelInfoItem(
                 context!!,

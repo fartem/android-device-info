@@ -21,7 +21,9 @@ class PixelApi27UITest {
         val pagesCount = activityTestRule.activity.pages().size
         assertEquals(pagesCount, 7)
 
-        (0..pagesCount).forEach { _ -> swipeToLeft() }
+        (0..pagesCount).forEach {
+                _ -> swipeToLeft()
+        }
     }
 
     private fun swipeToLeft() {

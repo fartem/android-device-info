@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo
 
 import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
-import com.smlnskgmail.jaman.deviceinfo.sctructure.SystemInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.SystemInfo
 
 class FakeSystemInfo : SystemInfo {
 

@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
 
-import com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.ram.DeviceRAMInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.ram.DeviceRAMInfo
 import org.junit.Assert.assertTrue
 import org.junit.Test
 

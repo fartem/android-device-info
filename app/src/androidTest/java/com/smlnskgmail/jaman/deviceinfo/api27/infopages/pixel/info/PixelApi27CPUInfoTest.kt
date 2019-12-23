@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
 
-import com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.cpu.DeviceCPUInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.cpu.DeviceCPUInfo
 import org.junit.Assert.assertNotNull
 import org.junit.Test
 

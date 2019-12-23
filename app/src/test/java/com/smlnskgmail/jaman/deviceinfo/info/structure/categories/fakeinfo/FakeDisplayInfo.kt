@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo
 
 import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoIntResult
 import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
-import com.smlnskgmail.jaman.deviceinfo.sctructure.DisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.DisplayInfo
 
 class FakeDisplayInfo : DisplayInfo {
 

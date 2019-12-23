@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.tools
 
-import com.smlnskgmail.jaman.deviceinfo.tools.data.NullHandle
+import com.smlnskgmail.jaman.deviceinfo.support.handlers.NullHandle
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

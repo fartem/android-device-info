@@ -1,6 +1,6 @@
 package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
 
-import com.smlnskgmail.jaman.deviceinfo.realizations.infopages.pages.system.DeviceSystemInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.system.DeviceSystemInfo
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test

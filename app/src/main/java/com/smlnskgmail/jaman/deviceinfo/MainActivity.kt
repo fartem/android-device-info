@@ -43,8 +43,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun saveGPUInfo() {
-        startActivityForResult(Intent(this, DeviceGPUActivity::class.java),
-            GPURequestCode().requestCode())
+        startActivityForResult(
+            Intent(this, DeviceGPUActivity::class.java),
+            GPURequestCode().requestCode()
+        )
     }
 
     private fun loadInfoPages() {

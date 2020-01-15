@@ -4,7 +4,7 @@ Android Device Info
 =======================
 
 ![Travis CI](https://img.shields.io/travis/fartem/android-device-info)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-site-brightgreen)](https://android-arsenal.com/details/3/7904)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Device%20Info-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/7904)
 ![Open issues](https://img.shields.io/github/issues-raw/fartem/android-device-info.svg?color=ff534a)
 
 About

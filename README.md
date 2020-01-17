@@ -1,4 +1,4 @@
-<img src="media/ic_app.png" height="100px" />
+<img src="media/logo/ic_app.png" height="100px" />
 
 Android Device Info
 =======================
@@ -12,22 +12,27 @@ About
 
 Demonstration app for displaying information about Android device.
 
+Downloads
+-------------------
+
+<img src="media/qrcodes/github_download.png" height="250px" />
+
 Screenshots
 -------------------
 
 <br/>
 <p align="center">
-  <img src="media/screenshot_01.png" width="190" />
-  <img src="media/screenshot_02.png" width="190" />
-  <img src="media/screenshot_03.png" width="190" />
-  <img src="media/screenshot_04.png" width="190" />
+  <img src="media/screenshots/screenshot_01.png" width="190" />
+  <img src="media/screenshots/screenshot_02.png" width="190" />
+  <img src="media/screenshots/screenshot_03.png" width="190" />
+  <img src="media/screenshots/screenshot_04.png" width="190" />
 </p>
 
 <br/>
 <p align="center">
-  <img src="media/screenshot_05.png" width="190" />
-  <img src="media/screenshot_06.png" width="190" />
-  <img src="media/screenshot_07.png" width="190" />
+  <img src="media/screenshots/screenshot_05.png" width="190" />
+  <img src="media/screenshots/screenshot_06.png" width="190" />
+  <img src="media/screenshots/screenshot_07.png" width="190" />
 </p>
 
 Contributors

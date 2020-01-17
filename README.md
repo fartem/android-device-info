@@ -15,7 +15,7 @@ Demonstration app for displaying information about Android device.
 Downloads
 -------------------
 
-<img src="media/qrcodes/github_download.png" height="250px" />
+<img src="media/qrcodes/github_download.png" height="150px" />
 
 Screenshots
 -------------------

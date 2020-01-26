@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.ui
+package com.smlnskgmail.jaman.deviceinfo.ui
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.swipeLeft
@@ -10,7 +10,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 
-class PixelApi27UITest {
+class PageRunnerTest {
 
     @JvmField
     @Rule

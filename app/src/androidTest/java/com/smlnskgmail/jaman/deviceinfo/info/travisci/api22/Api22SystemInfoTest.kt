@@ -1,23 +1,23 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info.travisci.api22
 
+import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.system.DeviceSystemInfo
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test
 
-class PixelApi27SystemInfoTest : BasePixelApi27InfoTest() {
+class Api22SystemInfoTest : BaseInfoTest() {
 
     @Test
     fun checkSystemPage() {
         val systemInfo = DeviceSystemInfo(context)
 
         assertEquals(
-            "27",
+            "22",
             systemInfo.apiLevel()
         )
 
-        assertEquals(
-            "i686",
+        assertNotNull(
             systemInfo.arch()
         )
 
@@ -32,17 +32,17 @@ class PixelApi27SystemInfoTest : BasePixelApi27InfoTest() {
         )
 
         assertEquals(
-            "google",
+            "Android",
             systemInfo.brand()
         )
 
         assertEquals(
-            "O",
+            "LOLLIPOP",
             systemInfo.codeName()
         )
 
         assertEquals(
-            "8.1.0",
+            "5.1.1",
             systemInfo.releaseVersion()
         )
 

@@ -1,10 +1,11 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info.pixel.api27
 
+import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.ram.DeviceRAMInfo
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-class PixelApi27RAMInfoTest : BasePixelApi27InfoTest() {
+class Api27RAMInfoTest : BaseInfoTest() {
 
     @Test
     fun checkRAMPage() {

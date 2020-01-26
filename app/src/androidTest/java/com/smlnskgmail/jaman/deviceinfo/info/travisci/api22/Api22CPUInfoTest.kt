@@ -1,10 +1,11 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info.travisci.api22
 
+import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.cpu.DeviceCPUInfo
 import org.junit.Assert.assertNotNull
 import org.junit.Test
 
-class PixelApi27CPUInfoTest : BasePixelApi27InfoTest() {
+class Api22CPUInfoTest : BaseInfoTest() {
 
     @Test
     fun checkCPUPage() {

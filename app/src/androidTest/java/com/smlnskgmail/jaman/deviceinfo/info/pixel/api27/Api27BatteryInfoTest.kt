@@ -1,11 +1,12 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info.pixel.api27
 
 import com.smlnskgmail.jaman.deviceinfo.R
+import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.battery.DeviceBatteryInfo
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class PixelApi27BatteryInfoTest : BasePixelApi27InfoTest() {
+class Api27BatteryInfoTest : BaseInfoTest() {
 
     @Test
     fun checkBatteryPage() {

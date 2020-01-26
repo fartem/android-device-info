@@ -1,11 +1,12 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info.pixel.api27
 
+import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.display.DeviceDisplayInfo
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test
 
-class PixelApi27DisplayInfoTest : BasePixelApi27InfoTest() {
+class Api27DisplayInfoTest : BaseInfoTest() {
 
     @Test
     fun checkDisplayPage() {

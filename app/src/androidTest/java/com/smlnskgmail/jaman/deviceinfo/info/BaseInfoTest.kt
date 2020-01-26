@@ -1,4 +1,4 @@
-package com.smlnskgmail.jaman.deviceinfo.api27.infopages.pixel.info
+package com.smlnskgmail.jaman.deviceinfo.info
 
 import android.content.Context
 import androidx.test.platform.app.InstrumentationRegistry
@@ -6,7 +6,7 @@ import androidx.test.rule.ActivityTestRule
 import com.smlnskgmail.jaman.deviceinfo.MainActivity
 import org.junit.Rule
 
-abstract class BasePixelApi27InfoTest {
+abstract class BaseInfoTest {
 
     @JvmField
     @Rule

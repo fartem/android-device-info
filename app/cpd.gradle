@@ -1,0 +1,10 @@
+apply plugin: 'cpd'
+
+cpd {
+    language = 'kotlin'
+    toolVersion = '6.21.0'
+}
+
+cpdCheck {
+    source = files('src/main/java/')
+}

@@ -2,7 +2,7 @@ package com.smlnskgmail.jaman.deviceinfo.info.pixel.api27
 
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
-import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.battery.DeviceBatteryInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.DeviceBatteryInfo
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

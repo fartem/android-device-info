@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.deviceinfo.info.travisci.api22
 
 import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
-import com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.display.DeviceDisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display.DeviceDisplayInfo
 import org.junit.Assert.*
 import org.junit.Test
 

@@ -1,7 +1,7 @@
 package com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo
 
 import com.smlnskgmail.jaman.deviceinfo.info.structure.categories.fakeinfo.defaultdata.FakeInfoStringResult
-import com.smlnskgmail.jaman.deviceinfo.logic.info.BatteryInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
 
 class FakeBatteryInfo : BatteryInfo {
 

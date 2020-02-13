@@ -44,7 +44,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun saveGPUInfo() {
         startActivityForResult(
-            Intent(this, DeviceGPUActivity::class.java),
+            Intent(
+                this,
+                DeviceGPUActivity::class.java
+            ),
             GPURequestCode().requestCode()
         )
     }

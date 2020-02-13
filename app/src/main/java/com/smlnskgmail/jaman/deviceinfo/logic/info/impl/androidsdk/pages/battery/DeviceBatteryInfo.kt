@@ -7,8 +7,9 @@ import android.os.BatteryManager
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
 
-class DeviceBatteryInfo(private val context: Context) :
-    BatteryInfo {
+class DeviceBatteryInfo(
+    private val context: Context
+) : BatteryInfo {
 
     override fun health(): String {
         val status = batteryData()!!.getIntExtra(BatteryManager.EXTRA_HEALTH, 0)

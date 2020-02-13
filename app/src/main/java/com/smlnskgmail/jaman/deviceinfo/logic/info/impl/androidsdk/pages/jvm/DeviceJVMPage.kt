@@ -9,7 +9,7 @@ import java.util.*
 
 class DeviceJVMPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
+    override fun infoItems(): MutableList<InfoItem> {
         val jvmInfo: JVMInfo = DeviceJVMInfo(context!!)
         return Collections.singletonList(
             JVMNameInfoItem(

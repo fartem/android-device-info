@@ -1,5 +1,11 @@
 package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.Bundle
+import android.view.View
 import com.smlnskgmail.jaman.deviceinfo.R
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.recycler.BatteryActionInfoItem
@@ -10,21 +16,60 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
 
 class DeviceBatteryPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
-        val batteryInfo: BatteryInfo = DeviceBatteryInfo(context!!)
-        return listOf(
+    private var batteryInfo: BatteryInfo? = null
+
+    private val batteryReceiver = object : BroadcastReceiver() {
+        override fun onReceive(
+            context: Context?,
+            intent: Intent?
+        ) {
+            infoItemsListUpdate(
+                batteryInfo()
+            )
+        }
+    }
+
+    override fun infoItems(): MutableList<InfoItem> {
+        return batteryInfo()
+    }
+
+    private fun batteryInfo(): MutableList<InfoItem> {
+        if (batteryInfo == null) {
+            batteryInfo = DeviceBatteryInfo(context!!)
+        }
+        return mutableListOf(
             BatteryHealthInfoItem(
                 context!!,
-                batteryInfo
+                batteryInfo!!
             ),
             BatteryActionInfoItem(
                 context!!,
-                batteryInfo
+                batteryInfo!!
             ),
             BatteryPluggedInfoItem(
                 context!!,
-                batteryInfo
+                batteryInfo!!
             )
+        )
+    }
+
+    override fun onViewCreated(
+        view: View,
+        savedInstanceState: Bundle?
+    ) {
+        super.onViewCreated(view, savedInstanceState)
+        activity!!.registerReceiver(
+            batteryReceiver,
+            IntentFilter(
+                Intent.ACTION_BATTERY_CHANGED
+            )
+        )
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        activity!!.unregisterReceiver(
+            batteryReceiver
         )
     }
 

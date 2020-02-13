@@ -8,12 +8,11 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display
 
 class DeviceDisplayPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
-        val displayInfo: DisplayInfo =
-            DeviceDisplayInfo(
-                activity!!
-            )
-        return listOf(
+    override fun infoItems(): MutableList<InfoItem> {
+        val displayInfo: DisplayInfo = DeviceDisplayInfo(
+            activity!!
+        )
+        return mutableListOf(
             DensityDpiInfoItem(
                 context!!,
                 displayInfo

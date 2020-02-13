@@ -6,8 +6,9 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.gpu.pre
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.GPUIInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.preferences.impl.shared.StringPreference
 
-class DeviceGPUIInfo(private val context: Context) :
-    GPUIInfo {
+class DeviceGPUIInfo(
+    private val context: Context
+) : GPUIInfo {
 
     override fun vendor() = StringPreference(
         context,

@@ -9,9 +9,9 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.api.CPUInfo
 
 class DeviceCPUPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
+    override fun infoItems(): MutableList<InfoItem> {
         val cpuInfo: CPUInfo = DeviceCPUInfo()
-        return listOf(
+        return mutableListOf(
             CPUCoresInfoItem(
                 context!!,
                 cpuInfo

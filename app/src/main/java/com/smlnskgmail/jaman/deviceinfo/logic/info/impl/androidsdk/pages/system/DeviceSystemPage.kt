@@ -8,9 +8,9 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.system.
 
 class DeviceSystemPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
+    override fun infoItems(): MutableList<InfoItem> {
         val systemInfo: SystemInfo = DeviceSystemInfo(context!!)
-        return listOf(
+        return mutableListOf(
             ApiLevelInfoItem(
                 context!!,
                 systemInfo

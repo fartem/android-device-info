@@ -9,9 +9,9 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.api.GPUIInfo
 
 class DeviceGPUPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
+    override fun infoItems(): MutableList<InfoItem> {
         val gpuInfo: GPUIInfo = DeviceGPUIInfo(context!!)
-        return listOf(
+        return mutableListOf(
             GPUModelInfoItem(
                 context!!,
                 gpuInfo

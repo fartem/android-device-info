@@ -2,8 +2,7 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.gpu.pr
 
 import com.smlnskgmail.jaman.deviceinfo.logic.preferences.api.PreferenceValue
 
-class GPUModelPreferenceValue :
-    PreferenceValue<String> {
+class GPUModelPreferenceValue : PreferenceValue<String> {
 
     override fun key() = "gpu_model"
 

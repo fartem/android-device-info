@@ -12,11 +12,26 @@ import kotlinx.android.synthetic.main.fragment_list.*
 
 abstract class BaseListInfoPage : Page2() {
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        info_list.adapter = InfoAdapter(infoItems())
+    private val infoItems = mutableListOf<InfoItem>()
+
+    override fun onViewCreated(
+        view: View,
+        savedInstanceState: Bundle?
+    ) {
+        infoItems.clear()
+        infoItems.addAll(infoItems())
+        info_list.adapter = InfoAdapter(infoItems)
     }
 
-    abstract fun infoItems(): List<InfoItem>
+    abstract fun infoItems(): MutableList<InfoItem>
+
+    fun infoItemsListUpdate(
+        infoItems: MutableList<InfoItem>
+    ) {
+        this.infoItems.clear()
+        this.infoItems.addAll(infoItems)
+        info_list.adapter?.notifyDataSetChanged()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,

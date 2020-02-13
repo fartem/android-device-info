@@ -9,10 +9,10 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.api.RAMInfo
 
 class DeviceRAMPage : BaseListInfoPage() {
 
-    override fun infoItems(): List<InfoItem> {
+    override fun infoItems(): MutableList<InfoItem> {
         val ramInfo: RAMInfo = DeviceRAMInfo(context!!)
         ramInfo.loadState()
-        return listOf(
+        return mutableListOf(
             AvailableRAMInfoItem(
                 context!!,
                 ramInfo

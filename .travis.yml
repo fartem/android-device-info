@@ -23,11 +23,14 @@ before_install:
   - chmod +x gradlew
 
 script:
-  - ./gradlew detekt
-  - ./gradlew cpdCheck
-  - ./gradlew test
+  - ./gradlew build
+  - ./gradlew jacocoTestReport
+  - ./gradlew assembleAndroidTest
   - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
   - emulator -avd test -no-skin -no-audio -no-window &
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
-  - ./gradlew -Pandroid.testInstrumentationRunnerArguments.class=com.smlnskgmail.jaman.deviceinfo.info.travisci.Api22TestSuite connectedAndroidTest
+  - ./gradlew -Pandroid.testInstrumentationRunnerArguments.class=com.smlnskgmail.jaman.deviceinfo.info.travisci.Api22TestSuite connectedCheck
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

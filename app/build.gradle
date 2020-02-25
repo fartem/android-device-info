@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: 'detekt.gradle'
 apply from: 'cpd.gradle'
+apply from: 'jacoco.gradle'
 
 android {
     compileSdkVersion 29
@@ -14,7 +15,22 @@ android {
         versionCode 1
         versionName "1.1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.smlnskgmail.jaman.deviceinfo.runner.AndroidJacocoTestRunner"
+    }
+    buildTypes {
+        debug {
+            testCoverageEnabled = true
+        }
+    }
+    testOptions {
+        unitTests {
+            all {
+                jacoco {
+                    includeNoLocationClasses = true
+                }
+            }
+            includeAndroidResources = true
+        }
     }
 }
 
@@ -22,7 +38,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'com.google.android.material:material:1.2.0-alpha04'
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation "androidx.preference:preference:1.1.0"

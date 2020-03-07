@@ -12,5 +12,4 @@ detekt {
         }
     }
     config = files(detektConfig)
-    filters = ".*build.*,.*/resources/.*,.*/tmp/.*,*.java"
 }

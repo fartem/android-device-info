@@ -36,6 +36,19 @@ Screenshots
   <img src="media/screenshots/screenshot_07.png" width="190" />
 </p>
 
+How to contribute
+-------------
+
+Read [Commit Convention](https://github.com/fartem/repository-rules/blob/master/commit-convention/COMMIT_CONVENTION.md). Make sure your build is green before you contribute your pull request. Then:
+
+```shell
+gradlew clean
+gradlew build
+gradlew -Pandroid.testInstrumentationRunnerArguments.class=com.smlnskgmail.jaman.deviceinfo.info.travisci.Api22TestSuite connectedCheck
+```
+
+If you don't see any error messages, submit your pull request.
+
 Contributors
 -------------
 

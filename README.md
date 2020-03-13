@@ -23,11 +23,11 @@ Screenshots
 
 <br/>
 <p align="center">
-  <img src="media/screenshots/screenshot_01.png" width="190" />
-  <img src="media/screenshots/screenshot_02.png" width="190" />
-  <img src="media/screenshots/screenshot_03.png" width="190" />
-  <img src="media/screenshots/screenshot_04.png" width="190" />
-  <img src="media/screenshots/screenshot_05.png" width="190" />
+  <img src="media/screenshots/screenshot_01.png" width="150" />
+  <img src="media/screenshots/screenshot_02.png" width="150" />
+  <img src="media/screenshots/screenshot_03.png" width="150" />
+  <img src="media/screenshots/screenshot_04.png" width="150" />
+  <img src="media/screenshots/screenshot_05.png" width="150" />
 </p>
 
 How to contribute

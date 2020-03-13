@@ -27,13 +27,7 @@ Screenshots
   <img src="media/screenshots/screenshot_02.png" width="190" />
   <img src="media/screenshots/screenshot_03.png" width="190" />
   <img src="media/screenshots/screenshot_04.png" width="190" />
-</p>
-
-<br/>
-<p align="center">
   <img src="media/screenshots/screenshot_05.png" width="190" />
-  <img src="media/screenshots/screenshot_06.png" width="190" />
-  <img src="media/screenshots/screenshot_07.png" width="190" />
 </p>
 
 How to contribute

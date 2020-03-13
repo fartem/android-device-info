@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Main -->
-    <color name="colorPrimary">#00bcd4</color>
-    <color name="colorPrimaryDark">#0097a7</color>
-    <color name="colorAccent">#ffeb3b</color>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#E0E0E0</color>
 
     <!-- Launcher -->
-    <color name="colorLauncherBackground">#FFEB3B</color>
+    <color name="colorLauncherBackground">#FF5722</color>
 
     <!-- Text -->
     <color name="colorPrimaryText">#212121</color>

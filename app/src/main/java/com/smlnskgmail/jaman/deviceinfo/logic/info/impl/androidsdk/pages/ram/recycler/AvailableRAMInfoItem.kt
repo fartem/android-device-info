@@ -2,8 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.ram.re
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.RAMInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 
 class AvailableRAMInfoItem(
     private val context: Context,

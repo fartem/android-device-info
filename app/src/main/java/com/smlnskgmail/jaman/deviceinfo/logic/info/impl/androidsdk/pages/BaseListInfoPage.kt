@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.ui.Page2
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoAdapter
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.ui.Page2
 import kotlinx.android.synthetic.main.fragment_list.*
 
 abstract class BaseListInfoPage : Page2() {

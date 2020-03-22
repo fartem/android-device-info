@@ -2,9 +2,9 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.cpu.re
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
+import com.smlnskgmail.jaman.deviceinfo.logic.info.api.CPUInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.cpu.Ghz
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
-import com.smlnskgmail.jaman.deviceinfo.logic.info.api.CPUInfo
 
 class CPUFreqInfoItem(
     private val context: Context,

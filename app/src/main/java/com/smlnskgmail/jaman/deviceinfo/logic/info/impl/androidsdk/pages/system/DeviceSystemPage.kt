@@ -1,9 +1,9 @@
 package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.system
 
 import com.smlnskgmail.jaman.deviceinfo.R
+import com.smlnskgmail.jaman.deviceinfo.logic.info.api.SystemInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
-import com.smlnskgmail.jaman.deviceinfo.logic.info.api.SystemInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.system.recycler.*
 
 class DeviceSystemPage : BaseListInfoPage() {

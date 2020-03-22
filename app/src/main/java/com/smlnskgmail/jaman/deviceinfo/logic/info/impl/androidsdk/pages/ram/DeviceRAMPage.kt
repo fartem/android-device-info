@@ -1,11 +1,11 @@
 package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.ram
 
 import com.smlnskgmail.jaman.deviceinfo.R
+import com.smlnskgmail.jaman.deviceinfo.logic.info.api.RAMInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.ram.recycler.AvailableRAMInfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.ram.recycler.TotalRAMInfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
-import com.smlnskgmail.jaman.deviceinfo.logic.info.api.RAMInfo
 
 class DeviceRAMPage : BaseListInfoPage() {
 

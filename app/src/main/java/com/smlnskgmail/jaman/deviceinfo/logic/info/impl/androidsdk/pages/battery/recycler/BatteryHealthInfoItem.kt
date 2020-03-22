@@ -2,8 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.batter
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 
 class BatteryHealthInfoItem(
     private val context: Context,

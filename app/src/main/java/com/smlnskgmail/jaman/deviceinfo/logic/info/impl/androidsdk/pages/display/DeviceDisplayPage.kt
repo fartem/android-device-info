@@ -1,10 +1,10 @@
 package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display
 
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.DisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display.recycler.*
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 
 class DeviceDisplayPage : BaseListInfoPage() {
 

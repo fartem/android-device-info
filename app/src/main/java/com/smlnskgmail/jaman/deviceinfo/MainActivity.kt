@@ -3,7 +3,6 @@ package com.smlnskgmail.jaman.deviceinfo
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.ui.ViewPager2WithTabs
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.DeviceBatteryPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.cpu.DeviceCPUPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display.DeviceDisplayPage
@@ -13,6 +12,7 @@ import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.gpu.ren
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.jvm.DeviceJVMPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.ram.DeviceRAMPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.system.DeviceSystemPage
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.ui.ViewPager2WithTabs
 import com.smlnskgmail.jaman.deviceinfo.logic.preferences.api.PreferenceValue
 import com.smlnskgmail.jaman.deviceinfo.logic.preferences.impl.shared.BooleanPreference
 import kotlinx.android.synthetic.main.activity_main.*

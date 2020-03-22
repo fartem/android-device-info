@@ -2,8 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.jvm.re
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.JVMInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 
 class JVMNameInfoItem(
     private val context: Context,

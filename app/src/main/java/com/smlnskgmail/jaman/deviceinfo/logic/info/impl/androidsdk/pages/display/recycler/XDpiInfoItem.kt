@@ -2,8 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.displa
 
 import android.content.Context
 import com.smlnskgmail.jaman.deviceinfo.R
-import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.api.DisplayInfo
+import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
 
 class XDpiInfoItem(
     private val context: Context,

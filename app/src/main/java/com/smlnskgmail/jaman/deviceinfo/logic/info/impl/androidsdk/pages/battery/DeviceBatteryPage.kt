@@ -7,12 +7,12 @@ import android.content.IntentFilter
 import android.os.Bundle
 import android.view.View
 import com.smlnskgmail.jaman.deviceinfo.R
+import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.BaseListInfoPage
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.recycler.BatteryActionInfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.recycler.BatteryHealthInfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.battery.recycler.BatteryPluggedInfoItem
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.recycler.InfoItem
-import com.smlnskgmail.jaman.deviceinfo.logic.info.api.BatteryInfo
 
 class DeviceBatteryPage : BaseListInfoPage() {
 

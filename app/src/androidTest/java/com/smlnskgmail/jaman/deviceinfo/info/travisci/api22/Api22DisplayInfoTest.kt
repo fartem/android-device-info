@@ -2,7 +2,8 @@ package com.smlnskgmail.jaman.deviceinfo.info.travisci.api22
 
 import com.smlnskgmail.jaman.deviceinfo.info.BaseInfoTest
 import com.smlnskgmail.jaman.deviceinfo.logic.info.impl.androidsdk.pages.display.DeviceDisplayInfo
-import org.junit.Assert.*
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class Api22DisplayInfoTest : BaseInfoTest() {

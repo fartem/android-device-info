@@ -28,8 +28,7 @@ class PageRunnerTest {
     }
 
     private fun swipeToLeft() {
-        onView(withId(R.id.info_pages))
-            .perform(swipeLeft())
+        onView(withId(R.id.info_pages)).perform(swipeLeft())
     }
 
 }

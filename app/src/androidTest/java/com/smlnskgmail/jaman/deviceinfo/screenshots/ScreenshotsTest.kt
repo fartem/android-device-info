@@ -11,8 +11,8 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import tools.fastlane.screengrab.FalconScreenshotStrategy
 import tools.fastlane.screengrab.Screengrab
+import tools.fastlane.screengrab.UiAutomatorScreenshotStrategy
 
 @RunWith(AndroidJUnit4::class)
 class ScreenshotsTest {
@@ -24,9 +24,7 @@ class ScreenshotsTest {
     @Before
     fun setup() {
         Screengrab.setDefaultScreenshotStrategy(
-            FalconScreenshotStrategy(
-                activityTestRule.activity
-            )
+            UiAutomatorScreenshotStrategy()
         )
     }
 

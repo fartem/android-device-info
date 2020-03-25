@@ -2,6 +2,7 @@ package com.smlnskgmail.jaman.deviceinfo.info.pixel
 
 import com.smlnskgmail.jaman.deviceinfo.info.pixel.api27.*
 import com.smlnskgmail.jaman.deviceinfo.ui.PageRunnerTest
+import com.smlnskgmail.jaman.deviceinfo.utils.ClipboardTextTest
 import org.junit.runner.RunWith
 import org.junit.runners.Suite
 
@@ -13,7 +14,8 @@ import org.junit.runners.Suite
     Api27JVMInfoTest::class,
     Api27RAMInfoTest::class,
     Api27SystemInfoTest::class,
-    PageRunnerTest::class
+    PageRunnerTest::class,
+    ClipboardTextTest::class
 )
 @RunWith(Suite::class)
 class Api27TestSuite

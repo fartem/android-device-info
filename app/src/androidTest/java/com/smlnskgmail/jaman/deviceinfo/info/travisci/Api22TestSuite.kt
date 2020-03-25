@@ -2,6 +2,7 @@ package com.smlnskgmail.jaman.deviceinfo.info.travisci
 
 import com.smlnskgmail.jaman.deviceinfo.info.travisci.api22.*
 import com.smlnskgmail.jaman.deviceinfo.ui.PageRunnerTest
+import com.smlnskgmail.jaman.deviceinfo.utils.ClipboardTextTest
 import org.junit.runner.RunWith
 import org.junit.runners.Suite
 
@@ -13,7 +14,8 @@ import org.junit.runners.Suite
     Api22JVMInfoTest::class,
     Api22RAMInfoTest::class,
     Api22SystemInfoTest::class,
-    PageRunnerTest::class
+    PageRunnerTest::class,
+    ClipboardTextTest::class
 )
 @RunWith(Suite::class)
 class Api22TestSuite

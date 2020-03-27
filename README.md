@@ -5,6 +5,7 @@ Android Device Info
 
 [![Travis CI](https://img.shields.io/travis/fartem/android-device-info)](https://travis-ci.org/fartem/android-device-info)
 [![Codecov](https://img.shields.io/codecov/c/github/fartem/android-device-info)](https://codecov.io/gh/fartem/android-device-info)
+[![Hits-of-Code](https://hitsofcode.com/github/fartem/android-device-info)](https://hitsofcode.com/view/github/fartem/android-device-info)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Device%20Info-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/7904)
 
 About

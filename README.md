@@ -18,13 +18,13 @@ __Available information about device__
 
 | Section | Values |
 | --- | --- |
-| System | Api Level, Arch, Board, Bootloader, Brand, Code Name, Date, Fingerprint, Hardware, Host, Kernel Version, Manufacturer, Model, Product, Release Version, Type, User |
-| Cpu | Cores, Frequency |
-| Gpu | Model, Vendor |
-| JVM | JVM |
-| RAM | Available RAM, Total RAM |
-| Battery | Health, Action, Plugged |
-| Display | Density DPI, Density, Display, Height Pixels, Scaled Density DPI, Width Pixels, XDPI, YDPI |
+| `System` | Api Level, Arch, Board, Bootloader, Brand, Code Name, Date, Fingerprint, Hardware, Host, Kernel Version, Manufacturer, Model, Product, Release Version, Type, User |
+| `CPU` | Cores, Frequency |
+| `GPU` | Model, Vendor |
+| `JVM` | JVM |
+| `RAM` | Available RAM, Total RAM |
+| `Battery` | Health, Action, Plugged |
+| `Display` | Density DPI, Density, Display, Height Pixels, Scaled Density DPI, Width Pixels, XDPI, YDPI |
 
 Downloads
 -------------

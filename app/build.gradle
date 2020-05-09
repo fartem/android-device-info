@@ -35,6 +35,14 @@ android {
             includeAndroidResources = true
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def versionName = android.defaultConfig.versionName
+            def buildTypeName = variant.buildType.name
+            output.outputFileName = "android-device-info-${buildTypeName}_${versionName}.apk"
+        }
+    }
 }
 
 dependencies {

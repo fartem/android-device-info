@@ -3,10 +3,10 @@
     <!-- Main -->
     <color name="colorPrimary">#FF5722</color>
     <color name="colorPrimaryDark">#E64A19</color>
-    <color name="colorAccent">#E0E0E0</color>
+    <color name="colorAccent">#FFC107</color>
 
     <!-- Launcher -->
-    <color name="colorLauncherBackground">#FF5722</color>
+    <color name="colorLauncherBackground">#FFC107</color>
 
     <!-- Text -->
     <color name="colorPrimaryText">#212121</color>

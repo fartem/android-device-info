@@ -1,15 +1,13 @@
 <img src="media/logo/ic_app.png" height="100px" />
 
-Android Device Info
-=============
+# Android Device Info
 
 [![Travis CI](https://travis-ci.org/fartem/android-device-info.svg?branch=master)](https://travis-ci.org/fartem/android-device-info)
 [![Codebeat](https://codebeat.co/badges/6abea524-2c73-4dae-9b49-4dc69438480a)](https://codebeat.co/projects/github-com-fartem-android-device-info-master)
 [![Codecov](https://codecov.io/gh/fartem/android-device-info/branch/master/graph/badge.svg)](https://codecov.io/gh/fartem/android-device-info)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Device%20Info-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/7904)
 
-About
--------------
+## About
 
 Demonstration app for displaying information about Android device.
 
@@ -25,13 +23,11 @@ __Available information about device__
 | `Battery` | Health, Action, Plugged |
 | `Display` | Density DPI, Density, Display, Height Pixels, Scaled Density DPI, Width Pixels, XDPI, YDPI |
 
-Download
--------------
+## Download
 
 <img src="media/qrcodes/github_download.png" height="150px" />
 
-Screenshots
--------------
+## Screenshots
 
 <br/>
 <p align="center">
@@ -42,8 +38,7 @@ Screenshots
   <img src="media/screenshots/screenshot_05.png" width="150" />
 </p>
 
-How to contribute
--------------
+## How to contribute
 
 Read [Commit Convention](https://github.com/fartem/repository-rules/blob/master/commit-convention/COMMIT_CONVENTION.md). Make sure your build is green before you contribute your pull request. Prepare any API 22 emulator. Then:
 
@@ -55,7 +50,6 @@ $ ./gradlew -Pandroid.testInstrumentationRunnerArguments.class=com.smlnskgmail.j
 
 If you don't see any error messages, submit your pull request.
 
-Contributors
--------------
+## Contributors
 
 * [@fartem](https://github.com/fartem) as Artem Fomchenkov

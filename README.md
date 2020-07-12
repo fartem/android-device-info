@@ -53,3 +53,4 @@ If you don't see any error messages, submit your pull request.
 ## Contributors
 
 * [@fartem](https://github.com/fartem) as Artem Fomchenkov
+* [@artem385](https://github.com/artem385) as Artem Fomchenkov

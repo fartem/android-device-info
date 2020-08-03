@@ -7,15 +7,15 @@ apply from: 'jacoco.gradle'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion '29.0.2'
     defaultConfig {
-        applicationId "com.smlnskgmail.jaman.deviceinfo"
+        applicationId 'com.smlnskgmail.jaman.deviceinfo'
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
-        versionName "1.2.1"
+        versionName '1.2.1'
 
-        testInstrumentationRunner "com.smlnskgmail.jaman.deviceinfo.runner.AndroidJacocoTestRunner"
+        testInstrumentationRunner 'com.smlnskgmail.jaman.deviceinfo.runner.AndroidJacocoTestRunner'
     }
     buildTypes {
         debug {
@@ -52,7 +52,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.0-alpha05'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
-    implementation "androidx.preference:preference:1.1.0"
+    implementation 'androidx.preference:preference:1.1.0'
 
     // Unit tests
     testImplementation 'junit:junit:4.13'

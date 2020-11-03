@@ -9,7 +9,7 @@
 
 ## About
 
-Demonstration app for displaying information about Android device.
+Demo app for displaying information about Android device.
 
 __Available information about device__
 

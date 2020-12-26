@@ -2,7 +2,7 @@
 
 # Android Device Info
 
-[![Travis CI](https://travis-ci.org/fartem/android-device-info.svg?branch=master)](https://travis-ci.org/fartem/android-device-info)
+[![GitHubActions](https://github.com/fartem/android-device-info/workflows/Build/badge.svg)](https://github.com/fartem/android-device-info/actions?query=workflow%3ABuild)
 [![Codebeat](https://codebeat.co/badges/6abea524-2c73-4dae-9b49-4dc69438480a)](https://codebeat.co/projects/github-com-fartem-android-device-info-master)
 [![Codecov](https://codecov.io/gh/fartem/android-device-info/branch/master/graph/badge.svg)](https://codecov.io/gh/fartem/android-device-info)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Device%20Info-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/7904)

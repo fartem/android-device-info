@@ -23,10 +23,6 @@ __Available information about device__
 | `Battery` | Health, Action, Plugged |
 | `Display` | Density DPI, Density, Display, Height Pixels, Scaled Density DPI, Width Pixels, XDPI, YDPI |
 
-## Download
-
-<img src="media/qrcodes/github_download.png" height="150px" />
-
 ## Screenshots
 
 <br/>
